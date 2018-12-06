@@ -1,8 +1,20 @@
-[TOC]
+# Contents  
+- [Interest Point Detection and Description](#interest-point-detection-and-description)  
+	- [SuperPoint](#superpoint-github)
+	- [Quad-networks](#quad-networks)
+	- [UCN](#ucn)
+	- [LIFT](#lift)
+	- [DeepDesc][#deepdesc]
+	- [TILDE](#tilde)
+- [3D Net](#3d-net)   
+  - [PointSift](#pointsift-github) 
+  - [PointCNN](#pointcnn-github) 
+  - [PointNet++](#pointnet-githubproject-page)  
+  - [PointNet](#pointnet-githubproject-page-1) 
 
 #### Interest Point Detection and Description
 
-##### SuprePoint &nbsp;[[github](https://github.com/MagicLeapResearch/SuperPointPretrainedNetwork)]
+##### SuperPoint &nbsp;[[github](https://github.com/MagicLeapResearch/SuperPointPretrainedNetwork)]
 [SuperPoint: Self-Supervised Interest Point Detection and Description](https://arxiv.org/abs/1712.07629) [2017 arXiv]
 
 ##### Quad-networks
@@ -20,7 +32,7 @@
 #####  TILDE
 [ TILDE: A Temporally Invariant Learned DEtector](https://arxiv.org/abs/1411.4568) [2015 CVPR]
 
-#### [3D Net][3DNet.md]
+#### 3D Net
 ##### PointSift &nbsp;[[github](https://github.com/MVIG-SJTU/pointSIFT)]
 [PointSIFT: A SIFT-like Network Module for 3D Point Cloud Semantic Segmentation](https://arxiv.org/abs/1807.00652) [2018 arXiv]
 
