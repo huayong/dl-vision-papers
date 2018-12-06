@@ -4,7 +4,7 @@
 	- [Quad-networks](#quad-networks)
 	- [UCN](#ucn)
 	- [LIFT](#lift)
-	- [DeepDesc][#deepdesc]
+	- [DeepDesc](#deepdesc)
 	- [TILDE](#tilde)
 - [3D Net](#3d-net)   
   - [PointSift](#pointsift-github) 
