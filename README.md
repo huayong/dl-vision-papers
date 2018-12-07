@@ -4,6 +4,8 @@
 	- [Geometric loss PoseNet](#geometric-loss-posenet)
 	- [PoseNet](#posenet-project-page)
 - [VO](#vo)
+	- [UnDeepVO](#undeepvo-githubproject-page)
+	- [DeepVO](#deepvo-project-page)
 - [VIO](#vio)
 - [MVS](#mvs)
 - [Interest Point Detection and Description](#interest-point-detection-and-description)  
@@ -33,9 +35,11 @@
 
 #### VO
 
-##### UnDeepVo
+##### UnDeepVO &nbsp;[[github](https://github.com/drmaj/UnDeepVO)]&nbsp;[[project page](http://senwang.gitlab.io/UnDeepVO/)]
+[UnDeepVO: Monocular Visual Odometry through Unsupervised Deep Learning](https://arxiv.org/abs/1709.06841) [2018 arXiv]
 
-##### DeepVo
+##### DeepVO &nbsp;[[project page](http://senwang.gitlab.io/DeepVO/)] 
+[DeepVO: Towards End-to-End Visual Odometry with Deep Recurrent Convolutional Neural Networks](https://arxiv.org/abs/1709.08429) [2017 ICRA]
 
 #### VIO
 
