@@ -1,8 +1,9 @@
-# Contents  
+#### Contents  
 - [Camera relocalization](#camera-relocalization)
 	- [MapNet](#mapnet-githubproject-page)
 	- [Geometric loss PoseNet](#geometric-loss-posenet)
-	- [PoseNet](#posenet-project-page)
+	- [Bayesian PoseNet](#bayesian-posenet)
+	- [PoseNet](#posenet-githubproject-page)
 - [VO](#vo)
 	- [MagicVO](#magicvo)
 	- [UnDeepVO](#undeepvo-githubproject-page)
@@ -29,6 +30,10 @@
   - [PointNet++](#pointnet-githubproject-page)  
   - [PointNet](#pointnet-githubproject-page-1) 
 
+------
+
+------
+
 #### Camera Relocalization
 
 ##### MapNet &nbsp;[[github](https://github.com/NVlabs/geomapnet)]&nbsp;[[project page](https://research.nvidia.com/publication/2018-06_Geometry-Aware-Learning-of)]
@@ -37,7 +42,10 @@
 ##### Geometric loss PoseNet 
 [Geometric loss functions for camera pose regression with deep learning](https://arxiv.org/abs/1704.00390) [2017 CVPR]
 
-##### PoseNet &nbsp;[[project page](http://mi.eng.cam.ac.uk/projects/relocalisation/)]
+##### Bayesian PoseNet
+[Modelling Uncertainty in Deep Learning for Camera Relocalization][https://arxiv.org/abs/1509.05909] [2016 ICRA]
+
+##### PoseNet &nbsp;[[github](https://github.com/alexgkendall/caffe-posenet)]&nbsp;[[project page](http://mi.eng.cam.ac.uk/projects/relocalisation/)]
 [PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization](https://arxiv.org/abs/1505.07427) [2015 ICCV]
 
 ------
