@@ -67,8 +67,11 @@
 
 ##### *Evaluation* 
 Protocol
+
 [A performance evaluation of local descriptors](https://www.robots.ox.ac.uk/~vgg/research/affine/det_eval_files/mikolajczyk_pami2004.pdf) [2005 PAMI]
+
 Data
+
 [HPatches: A Benchmark and Evaluation of Handcrafted and Learned Local Descriptors](https://arxiv.org/abs/1704.05939) [2017 CVPR]
 
 #### 3D Net
