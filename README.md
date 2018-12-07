@@ -40,6 +40,8 @@
 ##### PoseNet &nbsp;[[project page](http://mi.eng.cam.ac.uk/projects/relocalisation/)]
 [PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization](https://arxiv.org/abs/1505.07427) [2015 ICCV]
 
+------
+
 #### VO
 
 ##### MagicVO
@@ -52,15 +54,21 @@ Recurrent Convolutional Neural Network](https://arxiv.org/pdf/1811.10964) [2018 
 ##### DeepVO &nbsp;[[project page](http://senwang.gitlab.io/DeepVO/)] 
 [DeepVO: Towards End-to-End Visual Odometry with Deep Recurrent Convolutional Neural Networks](https://arxiv.org/abs/1709.08429) [2017 ICRA]
 
+------
+
 #### VIO
 
 ##### VINet &nbsp;[[github](https://github.com/HTLife/VINet)]
 [VINet: Visual-Inertial Odometry as a Sequence-to-Sequence Learning Problem](https://arxiv.org/abs/1701.08376) [2017 AAAI]
 
+------
+
 #### SFM
 
 ##### SfMLearner &nbsp;[[github](https://github.com/tinghuiz/SfMLearner)]&nbsp;[[project page](https://people.eecs.berkeley.edu/~tinghuiz/projects/SfMLearner/)]
 [Unsupervised Learning of Depth and Ego-Motion from Video](https://arxiv.org/abs/1704.07813) [2017 CVPR]
+
+------
 
 #### MVS
 
@@ -69,6 +77,8 @@ Recurrent Convolutional Neural Network](https://arxiv.org/pdf/1811.10964) [2018 
 
 ##### SurfaceNet &nbsp;[[github](https://github.com/mjiUST/SurfaceNet)]
 [SurfaceNet: An End-to-end 3D Neural Network for Multiview Stereopsis](https://arxiv.org/abs/1708.01749) [2017 ICCV]
+
+------
 
 #### Interest Point Detection and Description
 
@@ -102,7 +112,10 @@ Data
 
 [HPatches: A Benchmark and Evaluation of Handcrafted and Learned Local Descriptors](https://arxiv.org/abs/1704.05939) [2017 CVPR]
 
+------
+
 #### 3D Net
+
 ##### PointSift &nbsp;[[github](https://github.com/MVIG-SJTU/pointSIFT)]
 [PointSIFT: A SIFT-like Network Module for 3D Point Cloud Semantic Segmentation](https://arxiv.org/abs/1807.00652) [2018 arXiv]
 
