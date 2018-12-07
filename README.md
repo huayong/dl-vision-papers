@@ -1,4 +1,11 @@
 # Contents  
+- [Camera relocalization](# camera-relocalization)
+	- [MapNet](#mapnet-githubproject-page)
+	- [Geometric loss PoseNet](#geometric-loss-posenet)
+	- [PoseNet](#posenet-project-page)
+- [VO](#vo)
+- [VIO](#vio)
+- [MVS](#mvs)
 - [Interest Point Detection and Description](#interest-point-detection-and-description)  
 	- [SuperPoint](#superpoint-github)
 	- [Quad-networks](#quad-networks)
@@ -6,11 +13,33 @@
 	- [LIFT](#lift)
 	- [DeepDesc](#deepdesc)
 	- [TILDE](#tilde)
+	- [*Evaluation*](#evaluation)
 - [3D Net](#3d-net)   
   - [PointSift](#pointsift-github) 
   - [PointCNN](#pointcnn-github) 
   - [PointNet++](#pointnet-githubproject-page)  
   - [PointNet](#pointnet-githubproject-page-1) 
+
+#### Camera Relocalization
+
+##### MapNet &nbsp;[[github](https://github.com/NVlabs/geomapnet)]&nbsp;[[project page](https://research.nvidia.com/publication/2018-06_Geometry-Aware-Learning-of)]
+[ Geometry-Aware Learning of Maps for Camera Localization](https://arxiv.org/abs/1712.03342) [2018 CVPR]
+
+##### Geometric loss PoseNet 
+[Geometric loss functions for camera pose regression with deep learning](https://arxiv.org/abs/1704.00390) [2017 CVPR]
+
+##### PoseNet &nbsp;[[project page](http://mi.eng.cam.ac.uk/projects/relocalisation/)]
+[PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization](https://arxiv.org/abs/1505.07427) [2015 ICCV]
+
+#### VO
+
+##### UnDeepVo
+
+##### DeepVo
+
+#### VIO
+
+#### MVS
 
 #### Interest Point Detection and Description
 
@@ -31,6 +60,12 @@
 
 #####  TILDE
 [ TILDE: A Temporally Invariant Learned DEtector](https://arxiv.org/abs/1411.4568) [2015 CVPR]
+
+##### *Evaluation* 
+Protocol
+[A performance evaluation of local descriptors](https://www.robots.ox.ac.uk/~vgg/research/affine/det_eval_files/mikolajczyk_pami2004.pdf) [2005 PAMI]
+Data
+[HPatches: A Benchmark and Evaluation of Handcrafted and Learned Local Descriptors](https://arxiv.org/abs/1704.05939) [2017 CVPR]
 
 #### 3D Net
 ##### PointSift &nbsp;[[github](https://github.com/MVIG-SJTU/pointSIFT)]
