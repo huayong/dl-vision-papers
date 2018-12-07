@@ -4,12 +4,19 @@
 	- [Geometric loss PoseNet](#geometric-loss-posenet)
 	- [PoseNet](#posenet-project-page)
 - [VO](#vo)
+	- [MagicVO](#magicvo)
 	- [UnDeepVO](#undeepvo-githubproject-page)
 	- [DeepVO](#deepvo-project-page)
 - [VIO](#vio)
+	- [VINet](#vinet-github)
+- [SFM](#sfm)
+	- [SfMLearner](#sfmlearner-githubproject-page)
 - [MVS](#mvs)
+	- [MVSNet](#mvsnet-github)
+	- [SurfaceNet](#surfacenet-github)
 - [Interest Point Detection and Description](#interest-point-detection-and-description)  
 	- [SuperPoint](#superpoint-github)
+	- [GeoDesc](#geodesc-github)
 	- [Quad-networks](#quad-networks)
 	- [UCN](#ucn)
 	- [LIFT](#lift)
@@ -35,6 +42,10 @@
 
 #### VO
 
+##### MagicVO
+[MagicVO: End-to-End Monocular Visual Odometry through Deep Bi-directional
+Recurrent Convolutional Neural Network](https://arxiv.org/pdf/1811.10964) [2018 arXiv]
+
 ##### UnDeepVO &nbsp;[[github](https://github.com/drmaj/UnDeepVO)]&nbsp;[[project page](http://senwang.gitlab.io/UnDeepVO/)]
 [UnDeepVO: Monocular Visual Odometry through Unsupervised Deep Learning](https://arxiv.org/abs/1709.06841) [2018 arXiv]
 
@@ -43,12 +54,29 @@
 
 #### VIO
 
+##### VINet &nbsp;[[github](https://github.com/HTLife/VINet)]
+[VINet: Visual-Inertial Odometry as a Sequence-to-Sequence Learning Problem](https://arxiv.org/abs/1701.08376) [2017 AAAI]
+
+#### SFM
+
+##### SfMLearner &nbsp;[[github](https://github.com/tinghuiz/SfMLearner)]&nbsp;[[project page](https://people.eecs.berkeley.edu/~tinghuiz/projects/SfMLearner/)]
+[Unsupervised Learning of Depth and Ego-Motion from Video](https://arxiv.org/abs/1704.07813) [2017 CVPR]
+
 #### MVS
+
+##### MVSNet &nbsp;[[github](https://github.com/YoYo000/MVSNet)]
+[MVSNet: Depth Inference for Unstructured Multi-view Stereo](https://arxiv.org/abs/1804.02505) [2018 ECCV]
+
+##### SurfaceNet &nbsp;[[github](https://github.com/mjiUST/SurfaceNet)]
+[SurfaceNet: An End-to-end 3D Neural Network for Multiview Stereopsis](https://arxiv.org/abs/1708.01749) [2017 ICCV]
 
 #### Interest Point Detection and Description
 
 ##### SuperPoint &nbsp;[[github](https://github.com/MagicLeapResearch/SuperPointPretrainedNetwork)]
 [SuperPoint: Self-Supervised Interest Point Detection and Description](https://arxiv.org/abs/1712.07629) [2017 arXiv]
+
+##### GeoDesc &nbsp;[[github](https://github.com/lzx551402/geodesc)]
+[GeoDesc: Learning Local Descriptors by Integrating Geometry Constraints](https://arxiv.org/abs/1807.06294) [2018 ECCV]
 
 ##### Quad-networks
 [Quad-networks: unsupervised learning to rank for interest point detection](https://arxiv.org/abs/1611.07571) [2017 CVPR]
