@@ -1,5 +1,5 @@
 # Contents  
-- [Camera relocalization](# camera-relocalization)
+- [Camera relocalization](#camera-relocalization)
 	- [MapNet](#mapnet-githubproject-page)
 	- [Geometric loss PoseNet](#geometric-loss-posenet)
 	- [PoseNet](#posenet-project-page)
