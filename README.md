@@ -1,7 +1,13 @@
 #### Contents  
 - [Camera relocalization](#camera-relocalization)
+	- [VLocNet](#vLocnet)
 	- [MapNet](#mapnet-githubproject-page)
+	- [NNnet](#nnnet-github)
 	- [Geometric loss PoseNet](#geometric-loss-posenet)
+	- [Hourglass Pose](#hourglass-pose)
+	- [VidLoc](#vidloc)
+	- [LSTM Pose](#lstm-pose)
+	- [BranchNet](#branchnet)
 	- [Bayesian PoseNet](#bayesian-posenet)
 	- [PoseNet](#posenet-githubproject-page)
 - [VO](#vo)
@@ -12,9 +18,14 @@
 	- [VINet](#vinet-github)
 - [SFM](#sfm)
 	- [SfMLearner](#sfmlearner-githubproject-page)
+	- [SfM-Net](#sfm-net-github)
+	- [DeMoN](#demon-github)
 - [MVS](#mvs)
 	- [MVSNet](#mvsnet-github)
 	- [SurfaceNet](#surfacenet-github)
+- [SLAM](#slam)
+- [Semantic SLAM](#semantic-slam)
+	- [CNN-SLAM](#cnn-slam)
 - [Interest Point Detection and Description](#interest-point-detection-and-description)  
 	- [SuperPoint](#superpoint-github)
 	- [GeoDesc](#geodesc-github)
@@ -36,11 +47,33 @@
 
 #### Camera Relocalization
 
+##### VLocNet++
+[VLocNet++: Deep Multitask Learning for Semantic Visual Localization and
+Odometry](https://arxiv.org/abs/1804.08366) [2018 RAL]
+
+##### VLocNet
+[Deep Auxiliary Learning for Visual Localization and Odometry](https://arxiv.org/abs/1803.03642) [2018 ICRA]
+
 ##### MapNet &nbsp;[[github](https://github.com/NVlabs/geomapnet)]&nbsp;[[project page](https://research.nvidia.com/publication/2018-06_Geometry-Aware-Learning-of)]
 [ Geometry-Aware Learning of Maps for Camera Localization](https://arxiv.org/abs/1712.03342) [2018 CVPR]
 
+##### NNnet &nbsp;[[github](https://github.com/AaltoVision/camera-relocalisation)]
+[Camera Relocalization by Computing Pairwise Relative Poses Using Convolutional Neural Network](https://arxiv.org/abs/1707.09733) [2017 ICCV]
+
 ##### Geometric loss PoseNet 
 [Geometric loss functions for camera pose regression with deep learning](https://arxiv.org/abs/1704.00390) [2017 CVPR]
+
+##### Hourglass Pose
+[Image-based Localization using Hourglass Networks](https://arxiv.org/abs/1703.07971) [2017 ICCV]
+
+##### VidLoc
+[VidLoc: A Deep Spatio-Temporal Model for 6-DoF Video-Clip Relocalization](https://arxiv.org/abs/1702.06521) [2017 CVPR]
+
+##### LSTM Pose
+[Image-based localization using LSTMs for structured feature correlation](https://arxiv.org/abs/1611.07890) [2017 ICCV]
+
+##### BranchNet
+[Delving Deeper into Convolutional Neural Networks for Camera Relocalization](http://www.xlhu.cn/papers/Wu17-icra.pdf) [2017 ICRA]
 
 ##### Bayesian PoseNet
 [Modelling Uncertainty in Deep Learning for Camera Relocalization][https://arxiv.org/abs/1509.05909] [2016 ICRA]
@@ -54,7 +87,7 @@
 
 ##### MagicVO
 [MagicVO: End-to-End Monocular Visual Odometry through Deep Bi-directional
-Recurrent Convolutional Neural Network](https://arxiv.org/pdf/1811.10964) [2018 arXiv]
+Recurrent Convolutional Neural Network](https://arxiv.org/abs/1811.10964) [2018 arXiv]
 
 ##### UnDeepVO &nbsp;[[github](https://github.com/drmaj/UnDeepVO)]&nbsp;[[project page](http://senwang.gitlab.io/UnDeepVO/)]
 [UnDeepVO: Monocular Visual Odometry through Unsupervised Deep Learning](https://arxiv.org/abs/1709.06841) [2018 arXiv]
@@ -76,6 +109,12 @@ Recurrent Convolutional Neural Network](https://arxiv.org/pdf/1811.10964) [2018 
 ##### SfMLearner &nbsp;[[github](https://github.com/tinghuiz/SfMLearner)]&nbsp;[[project page](https://people.eecs.berkeley.edu/~tinghuiz/projects/SfMLearner/)]
 [Unsupervised Learning of Depth and Ego-Motion from Video](https://arxiv.org/abs/1704.07813) [2017 CVPR]
 
+#####SfM-Net &nbsp;[[github](https://github.com/waxz/sfm_net)]
+[SfM-Net: Learning of Structure and Motion from Video](https://arxiv.org/abs/1704.07804) [2017 arXiv]
+
+##### DeMoN &nbsp;[[github](https://github.com/lmb-freiburg/demon)]
+[DeMoN: Depth and Motion Network for Learning Monocular Stereo](https://arxiv.org/abs/1612.02401) [2017 CVPR]
+
 ------
 
 #### MVS
@@ -85,6 +124,37 @@ Recurrent Convolutional Neural Network](https://arxiv.org/pdf/1811.10964) [2018 
 
 ##### SurfaceNet &nbsp;[[github](https://github.com/mjiUST/SurfaceNet)]
 [SurfaceNet: An End-to-end 3D Neural Network for Multiview Stereopsis](https://arxiv.org/abs/1708.01749) [2017 ICCV]
+
+------
+
+#### SLAM
+
+------
+
+#### Semantic SLAM
+
+##### CNN-SLAM
+[CNN-SLAM: Real-time dense monocular SLAM with learned depth prediction](https://arxiv.org/abs/1704.03489) [2017 CVPR]
+
+------
+
+#### Depth Estimation
+
+##### monoDepth &nbsp;[[project page](http://visual.cs.ucl.ac.uk/pubs/monoDepth/)]
+[Unsupervised Monocular Depth Estimation with Left-Right Consistency](https://arxiv.org/abs/1609.03677) [2017 CVPR]
+
+##### Unsupervised Depth Estimation &nbsp;[[github](https://github.com/Ravi-Garg/Unsupervised_Depth_Estimation)]
+[Unsupervised CNN for Single View Depth Estimation: Geometry to the Rescue](https://arxiv.org/abs/1603.04992) [2016 ECCV]
+
+------
+
+#### Visual Navigation
+
+##### CMP
+[Cognitive Mapping and Planning for Visual Navigation](https://arxiv.org/abs/1702.03920) [2017 CVPR]
+
+##### Target-driven Visual Navigation &nbsp;[[github](https://github.com/zfw1226/icra2017-visual-navigation)]
+[Target-driven Visual Navigation in Indoor Scenes using Deep Reinforcement Learning](https://arxiv.org/abs/1609.05143) [2017 ICRA]
 
 ------
 
