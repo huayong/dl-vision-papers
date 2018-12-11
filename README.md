@@ -1,6 +1,7 @@
 #### Contents  
 - [Camera relocalization](#camera-relocalization)
-	- [VLocNet](#vLocnet)
+	- [VLocNet++](#vLocnet)
+	- [VLocNet](#vLocnet-1)
 	- [MapNet](#mapnet-githubproject-page)
 	- [NNnet](#nnnet-github)
 	- [Geometric loss PoseNet](#geometric-loss-posenet)
@@ -17,6 +18,7 @@
 - [VIO](#vio)
 	- [VINet](#vinet-github)
 - [SFM](#sfm)
+	- [GeoNet](#geonet-github)
 	- [SfMLearner](#sfmlearner-githubproject-page)
 	- [SfM-Net](#sfm-net-github)
 	- [DeMoN](#demon-github)
@@ -24,6 +26,7 @@
 	- [MVSNet](#mvsnet-github)
 	- [SurfaceNet](#surfacenet-github)
 - [SLAM](#slam)
+	- [Deep SLAM](#deep-slam)
 - [Semantic SLAM](#semantic-slam)
 	- [CNN-SLAM](#cnn-slam)
 - [Interest Point Detection and Description](#interest-point-detection-and-description)  
@@ -76,7 +79,7 @@ Odometry](https://arxiv.org/abs/1804.08366) [2018 RAL]
 [Delving Deeper into Convolutional Neural Networks for Camera Relocalization](http://www.xlhu.cn/papers/Wu17-icra.pdf) [2017 ICRA]
 
 ##### Bayesian PoseNet
-[Modelling Uncertainty in Deep Learning for Camera Relocalization][https://arxiv.org/abs/1509.05909] [2016 ICRA]
+[Modelling Uncertainty in Deep Learning for Camera Relocalization](https://arxiv.org/abs/1509.05909) [2016 ICRA]
 
 ##### PoseNet &nbsp;[[github](https://github.com/alexgkendall/caffe-posenet)]&nbsp;[[project page](http://mi.eng.cam.ac.uk/projects/relocalisation/)]
 [PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization](https://arxiv.org/abs/1505.07427) [2015 ICCV]
@@ -106,6 +109,9 @@ Recurrent Convolutional Neural Network](https://arxiv.org/abs/1811.10964) [2018 
 
 #### SFM
 
+##### GeoNet &nbsp;[[github](https://github.com/yzcjtr/GeoNet)]
+[GeoNet: Unsupervised Learning of Dense Depth, Optical Flow and Camera Pose](https://arxiv.org/abs/1803.02276) [2018 CVPR]
+
 ##### SfMLearner &nbsp;[[github](https://github.com/tinghuiz/SfMLearner)]&nbsp;[[project page](https://people.eecs.berkeley.edu/~tinghuiz/projects/SfMLearner/)]
 [Unsupervised Learning of Depth and Ego-Motion from Video](https://arxiv.org/abs/1704.07813) [2017 CVPR]
 
@@ -128,6 +134,9 @@ Recurrent Convolutional Neural Network](https://arxiv.org/abs/1811.10964) [2018 
 ------
 
 #### SLAM
+
+##### Deep SLAM
+[Toward Geometric Deep SLAM](https://arxiv.org/abs/1707.07410) [2017 arXiv]
 
 ------
 
