@@ -82,7 +82,7 @@ Odometry](https://arxiv.org/abs/1804.08366)&nbsp;[2018 RAL]
 [Modelling Uncertainty in Deep Learning for Camera Relocalization](https://arxiv.org/abs/1509.05909)&nbsp;[2016 ICRA]
 
 ##### PoseNet 
-[PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization](https://arxiv.org/abs/1505.07427)&nbsp;[2015 ICCV]&nbsp;[code: [caffe](https://github.com/alexgkendall/caffe-posenet)&nbsp;|&nbsp;[tensorflow][https://github.com/kentsommer/tensorflow-posenet]]&nbsp;[[project page](http://mi.eng.cam.ac.uk/projects/relocalisation/)]
+[PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization](https://arxiv.org/abs/1505.07427)&nbsp;[2015 ICCV]&nbsp;[code: [caffe](https://github.com/alexgkendall/caffe-posenet)&nbsp;|&nbsp;[tensorflow](https://github.com/kentsommer/tensorflow-posenet)]&nbsp;[[project page](http://mi.eng.cam.ac.uk/projects/relocalisation/)]
 
 ------
 
@@ -183,7 +183,7 @@ Recurrent Convolutional Neural Network](https://arxiv.org/abs/1811.10964)&nbsp;[
 [SuperPoint: Self-Supervised Interest Point Detection and Description](https://arxiv.org/abs/1712.07629)&nbsp;[2017 arXiv]&nbsp;[code: [pytorch](https://github.com/MagicLeapResearch/SuperPointPretrainedNetwork)]
 
 ##### GeoDesc 
-[GeoDesc: Learning Local Descriptors by Integrating Geometry Constraints](https://arxiv.org/abs/1807.06294)&nbsp;[2018 ECCV]&nbsp;[code: [github](https://github.com/lzx551402/geodesc)]
+[GeoDesc: Learning Local Descriptors by Integrating Geometry Constraints](https://arxiv.org/abs/1807.06294)&nbsp;[2018 ECCV]&nbsp;[code: [tensorflow](https://github.com/lzx551402/geodesc)]
 
 ##### Quad-networks
 [Quad-networks: unsupervised learning to rank for interest point detection](https://arxiv.org/abs/1611.07571)&nbsp;[2017 CVPR]
