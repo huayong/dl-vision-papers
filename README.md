@@ -51,18 +51,18 @@
 
 #### Camera Relocalization
 
-|                              | input            | arch                       | output     | scenes                                                       |
-| ---------------------------- | ---------------- | -------------------------- | ---------- | ------------------------------------------------------------ |
-| VLocNet++                    | RGB<br />Images  |                            |            |                                                              |
-| VLocNet                      | RGB<br />Images  |                            |            |                                                              |
-| MapNet                       | RGB<br />Videos  | ResNet-34                  | p + log(q) | small-scale indoor<br />large-scale outdoor<br />            |
-| NNnet                        |                  |                            |            |                                                              |
-| Hourglass Pose               | RGB<br />Images  | ResNet-34<br />+ Hourglass | p + q      | small-scale indoor                                           |
-| VidLoc                       | RGB <br />Videos |                            |            |                                                              |
-| LSTM PoseNet                 | RGB<br />Images  | GoogLeNet<br />+ LSTM      | p + q      | small-scale indoor<br />large-scale outdoor<br />large-scale indoor |
-| Geometric loss <br />PoseNet | RGB<br />Images  | GoogLeNet                  | p + q      | small-scale indoor<br />large-scale outdoor<br />city-scale outdoor |
-| Bayesian<br />PoseNet        | RGB<br />Images  | GoogLeNet                  | p + q      | small-scale indoor<br />large-scale outdoor                  |
-| PoseNet                      | RGB<br />Images  | GoogLeNet                  | p + q      | small-scale indoor<br />large-scale outdoor                  |
+|                              | input             | arch                       | output                 | scenes                                                    |
+| ---------------------------- | ----------------- | -------------------------- | ---------------------- | --------------------------------------------------------- |
+| VLocNet++                    | 2 RGB<br />Images | ResNet-50                  | p + q<br />vo<br />seg | 7 Scenes<br />Cambridge Landmarks(no Street)              |
+| VLocNet                      | 2 RGB<br />Images | ResNet-50                  | p + q<br />vo          | 7 Scenes<br />Cambridge Landmarks(no Street)              |
+| MapNet                       | RGB<br />Videos   | ResNet-34                  | p + log(q)             | 7 Scenes<br />Oxford RobotCar                             |
+| NNnet                        |                   |                            |                        |                                                           |
+| Hourglass Pose               | RGB<br />Images   | ResNet-34<br />+ Hourglass | p + q                  | 7 Scenes                                                  |
+| VidLoc                       | RGB <br />Videos  | GoogLeNet<br />+ Bi-LSTM   | p                      | 7 Scenes<br />Oxford RobotCar                             |
+| LSTM PoseNet                 | RGB<br />Images   | GoogLeNet<br />+ LSTM      | p + q                  | 7 Scenes<br />Cambridge Landmarks(no Street)<br />TUM-LSI |
+| Geometric loss <br />PoseNet | RGB<br />Images   | GoogLeNet                  | p + q                  | 7 Scenes<br />Cambridge Landmarks<br />Dubrovnik6K        |
+| Bayesian<br />PoseNet        | RGB<br />Images   | GoogLeNet                  | p + q                  | 7 Scenes<br />Cambridge Landmarks                         |
+| PoseNet                      | RGB<br />Images   | GoogLeNet                  | p + q                  | 7 Scenes<br />Cambridge Landmarks                         |
 
 ##### VLocNet++
 
