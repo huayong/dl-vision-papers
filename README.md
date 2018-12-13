@@ -7,7 +7,8 @@
 	- [Geometric loss PoseNet](#geometric-loss-posenet)
 	- [Hourglass Pose](#hourglass-pose)
 	- [VidLoc](#vidloc)
-	- [LSTM Pose](#lstm-pose)
+	- [LSTM PoseNet](#lstm-posenet)
+	- [DSAC](#dsac)
 	- [BranchNet](#branchnet)
 	- [Bayesian PoseNet](#bayesian-posenet)
 	- [PoseNet](#posenet)
@@ -50,7 +51,21 @@
 
 #### Camera Relocalization
 
+|                              | input            | arch                       | output     | scenes                                                       |
+| ---------------------------- | ---------------- | -------------------------- | ---------- | ------------------------------------------------------------ |
+| VLocNet++                    | RGB<br />Images  |                            |            |                                                              |
+| VLocNet                      | RGB<br />Images  |                            |            |                                                              |
+| MapNet                       | RGB<br />Videos  | ResNet-34                  | p + log(q) | small-scale indoor<br />large-scale outdoor<br />            |
+| NNnet                        |                  |                            |            |                                                              |
+| Hourglass Pose               | RGB<br />Images  | ResNet-34<br />+ Hourglass | p + q      | small-scale indoor                                           |
+| VidLoc                       | RGB <br />Videos |                            |            |                                                              |
+| LSTM PoseNet                 | RGB<br />Images  | GoogLeNet<br />+ LSTM      | p + q      | small-scale indoor<br />large-scale outdoor<br />large-scale indoor |
+| Geometric loss <br />PoseNet | RGB<br />Images  | GoogLeNet                  | p + q      | small-scale indoor<br />large-scale outdoor<br />city-scale outdoor |
+| Bayesian<br />PoseNet        | RGB<br />Images  | GoogLeNet                  | p + q      | small-scale indoor<br />large-scale outdoor                  |
+| PoseNet                      | RGB<br />Images  | GoogLeNet                  | p + q      | small-scale indoor<br />large-scale outdoor                  |
+
 ##### VLocNet++
+
 [VLocNet++: Deep Multitask Learning for Semantic Visual Localization and
 Odometry](https://arxiv.org/abs/1804.08366)&nbsp;[2018 RAL]
 
@@ -72,8 +87,11 @@ Odometry](https://arxiv.org/abs/1804.08366)&nbsp;[2018 RAL]
 ##### VidLoc
 [VidLoc: A Deep Spatio-Temporal Model for 6-DoF Video-Clip Relocalization](https://arxiv.org/abs/1702.06521)&nbsp;[2017 CVPR]
 
-##### LSTM Pose
-[Image-based localization using LSTMs for structured feature correlation](https://arxiv.org/abs/1611.07890)&nbsp;[2017 ICCV]
+##### LSTM PoseNet
+[Image-based localization using LSTMs for structured feature correlation](https://arxiv.org/abs/1611.07890)&nbsp;[2017 ICCV]&nbsp;[code: [pytorch](https://github.com/hazirbas/poselstm-pytorch)]
+
+##### DSAC
+[DSAC - Differentiable RANSAC for Camera Localization](https://arxiv.org/abs/1611.05705)&nbsp;[2017 CVPR]
 
 ##### BranchNet
 [Delving Deeper into Convolutional Neural Networks for Camera Relocalization](http://www.xlhu.cn/papers/Wu17-icra.pdf)&nbsp;[2017 ICRA]
@@ -82,7 +100,16 @@ Odometry](https://arxiv.org/abs/1804.08366)&nbsp;[2018 RAL]
 [Modelling Uncertainty in Deep Learning for Camera Relocalization](https://arxiv.org/abs/1509.05909)&nbsp;[2016 ICRA]
 
 ##### PoseNet 
-[PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization](https://arxiv.org/abs/1505.07427)&nbsp;[2015 ICCV]&nbsp;[code: [caffe](https://github.com/alexgkendall/caffe-posenet)&nbsp;|&nbsp;[tensorflow](https://github.com/kentsommer/tensorflow-posenet)]&nbsp;[[project page](http://mi.eng.cam.ac.uk/projects/relocalisation/)]
+[PoseNet: A Convolutional Network for Real-Time 6-DOF Camera Relocalization](https://arxiv.org/abs/1505.07427)&nbsp;[2015 ICCV]&nbsp;[code: [caffe](https://github.com/alexgkendall/caffe-posenet)]&nbsp;[[project page](http://mi.eng.cam.ac.uk/projects/relocalisation/)]
+
+##### *Evaluation* 
+
+Data
+
+[Cambridge Landmarks](http://mi.eng.cam.ac.uk/projects/relocalisation/)
+[7-Scenes](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/)
+[Oxford RobotCar][https://robotcar-dataset.robots.ox.ac.uk/]
+[Dubrovnik6K and Rome16K ](http://www.cs.cornell.edu/projects/p2f/)
 
 ------
 
