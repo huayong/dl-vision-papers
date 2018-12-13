@@ -106,10 +106,10 @@ Odometry](https://arxiv.org/abs/1804.08366)&nbsp;[2018 RAL]
 
 Data
 
-[Cambridge Landmarks](http://mi.eng.cam.ac.uk/projects/relocalisation/)
-[7-Scenes](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/)
-[Oxford RobotCar][https://robotcar-dataset.robots.ox.ac.uk/]
-[Dubrovnik6K and Rome16K ](http://www.cs.cornell.edu/projects/p2f/)
+[Cambridge Landmarks](http://mi.eng.cam.ac.uk/projects/relocalisation/)<br />
+[7-Scenes](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/)<br />
+[Oxford RobotCar][https://robotcar-dataset.robots.ox.ac.uk/]<br />
+[Dubrovnik6K and Rome16K ](http://www.cs.cornell.edu/projects/p2f/)<br />
 
 ------
 
