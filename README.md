@@ -53,7 +53,7 @@
 
 |                              | input             | arch                       | output                 | scenes                                                    |
 | ---------------------------- | ----------------- | -------------------------- | ---------------------- | --------------------------------------------------------- |
-| VLocNet++                    | 2 RGB<br />Images | ResNet-50                  | p + q<br />vo<br />seg | 7 Scenes<br />Cambridge Landmarks(no Street)              |
+| VLocNet++                    | 2 RGB<br />Images | ResNet-50                  | p + q<br />vo<br />seg | 7 Scenes<br />deeploc                                     |
 | VLocNet                      | 2 RGB<br />Images | ResNet-50                  | p + q<br />vo          | 7 Scenes<br />Cambridge Landmarks(no Street)              |
 | MapNet                       | RGB<br />Videos   | ResNet-34                  | p + log(q)             | 7 Scenes<br />Oxford RobotCar                             |
 | NNnet                        |                   |                            |                        |                                                           |
@@ -177,7 +177,7 @@ Recurrent Convolutional Neural Network](https://arxiv.org/abs/1811.10964)&nbsp;[
 #### Depth Estimation
 
 ##### monoDepth
-[Unsupervised Monocular Depth Estimation with Left-Right Consistency](https://arxiv.org/abs/1609.03677)&nbsp;[2017 CVPR]&nbsp;[[project page](http://visual.cs.ucl.ac.uk/pubs/monoDepth/)]
+[Unsupervised Monocular Depth Estimation with Left-Right Consistency](https://arxiv.org/abs/1609.03677)&nbsp;[2017 CVPR]&nbsp;[code: [tensorflow](https://github.com/mrharicot/monodepth)]&nbsp;[[project page](http://visual.cs.ucl.ac.uk/pubs/monoDepth/)]
 
 ##### Unsupervised Depth Estimation
 [Unsupervised CNN for Single View Depth Estimation: Geometry to the Rescue](https://arxiv.org/abs/1603.04992)&nbsp;[2016 ECCV]&nbsp;[code: [caffe](https://github.com/Ravi-Garg/Unsupervised_Depth_Estimation)]
