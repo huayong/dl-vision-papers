@@ -55,6 +55,30 @@
 
 ------
 
+#### 3D Scene Recon
+
+------
+
+#### 3D Object Recon
+
+##### H3DSPR
+[Holistic 3D Scene Parsing and Reconstruction from a Single RGB Image](https://arxiv.org/abs/1808.02201) [2018 ECCV][code: [python](https://github.com/thusiyuan/holistic_scene_parsing)]
+
+------
+
+#### Apperence Transfer
+
+##### ToDayGAN
+[Night-to-Day Image Translation for Retrieval-based Localization](https://arxiv.org/abs/1809.09767)&nbsp;[2018 arXiv]&nbsp;[code: [pytorch](https://github.com/AAnoosheh/ToDayGAN)]
+
+##### ATLoc
+[Adversarial Training for Adverse Conditions: Robust Metric Localisation using Appearance Transfer](https://arxiv.org/abs/1803.03341) [2018 CoRR]
+
+##### UNIT
+[Unsupervised Image-to-Image Translation Networks](https://arxiv.org/abs/1703.00848 )&nbsp;[2017 NIPS]&nbsp;[code: [pytorch](https://github.com/mingyuliutw/UNIT)]
+
+------
+
 #### Camera Relocalization
 
 |                              | input             | arch                       | output                 | scenes                                                    |
@@ -81,6 +105,9 @@ Odometry](https://arxiv.org/abs/1804.08366)&nbsp;[2018 RAL]
 ##### MapNet 
 [ Geometry-Aware Learning of Maps for Camera Localization](https://arxiv.org/abs/1712.03342) [2018 CVPR] &nbsp;[code: [pytorch](https://github.com/NVlabs/geomapnet)]&nbsp;[[project page](https://research.nvidia.com/publication/2018-06_Geometry-Aware-Learning-of)]
 
+##### LessMore
+[Learning Less is More - 6D Camera Localization via 3D Surface Regression](https://arxiv.org/abs/1711.10228) [2018 CVPR]&nbsp;[code: [torch](https://github.com/vislearn/LessMore)]&nbsp;[[project page](https://hci.iwr.uni-heidelberg.de/vislearn/research/scene-understanding/pose-estimation/#CVPR18)]
+
 ##### NNnet 
 [Camera Relocalization by Computing Pairwise Relative Poses Using Convolutional Neural Network](https://arxiv.org/abs/1707.09733) [2017 ICCV] &nbsp;[code: [torch](https://github.com/AaltoVision/camera-relocalisation)]
 
@@ -97,7 +124,7 @@ Odometry](https://arxiv.org/abs/1804.08366)&nbsp;[2018 RAL]
 [Image-based localization using LSTMs for structured feature correlation](https://arxiv.org/abs/1611.07890)&nbsp;[2017 ICCV]&nbsp;[code: [pytorch](https://github.com/hazirbas/poselstm-pytorch)]
 
 ##### DSAC
-[DSAC - Differentiable RANSAC for Camera Localization](https://arxiv.org/abs/1611.05705)&nbsp;[2017 CVPR]
+[DSAC - Differentiable RANSAC for Camera Localization](https://arxiv.org/abs/1611.05705)&nbsp;[2017 CVPR]&nbsp;[code: [torch](https://github.com/cvlab-dresden/DSAC)]&nbsp;[[project page](https://hci.iwr.uni-heidelberg.de/vislearn/research/scene-understanding/pose-estimation/#DSAC)]
 
 ##### BranchNet
 [Delving Deeper into Convolutional Neural Networks for Camera Relocalization](http://www.xlhu.cn/papers/Wu17-icra.pdf)&nbsp;[2017 ICRA]
