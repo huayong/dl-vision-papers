@@ -55,14 +55,18 @@
 
 ------
 
-#### 3D Scene Recon
+#### 3D Object Recon
 
 ------
 
-#### 3D Object Recon
+#### 3D Scene Recon
+
+##### Factored3d
+[Factoring Shape, Pose, and Layout from the 2D Image of a 3D Scene](https://arxiv.org/abs/1712.01812)&nbsp;[2018 CVPR]&nbsp;[code: [pytorch](https://github.com/shubhtuls/factored3d)]&nbsp;[[project page](https://shubhtuls.github.io/factored3d/)]
 
 ##### H3DSPR
-[Holistic 3D Scene Parsing and Reconstruction from a Single RGB Image](https://arxiv.org/abs/1808.02201) [2018 ECCV][code: [python](https://github.com/thusiyuan/holistic_scene_parsing)]
+
+[Holistic 3D Scene Parsing and Reconstruction from a Single RGB Image](https://arxiv.org/abs/1808.02201)&nbsp;[2018 ECCV]&nbsp;[code: [python](https://github.com/thusiyuan/holistic_scene_parsing)]&nbsp;[[project page](http://siyuanhuang.com/holistic_parsing/main.html)]
 
 ------
 
