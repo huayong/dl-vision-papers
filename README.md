@@ -73,7 +73,6 @@
 
 ------
 
------
 #### 3D Plane Recon
 
 ##### PlaneRCNN
@@ -84,6 +83,8 @@
 
 ##### PlaneNet
 [PlaneNet: Piece-wise Planar Reconstruction from a Single RGB Image](https://arxiv.org/abs/1804.06278)&nbsp[2018 CVPR]&nbsp;[code: [tensorflow](https://github.com/art-programmer/PlaneNet)]&nbsp;[[project page](http://art-programmer.github.io/planenet.html)]
+
+------
 
 #### 3D Scene Recon
 
