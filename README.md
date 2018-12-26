@@ -1,4 +1,18 @@
 #### Contents  
+- [3D Object Recon](#3d-object-recon)	
+- [3D Plane Recon](#3d-plane-recon)
+  - [PlaneRCNN](#planercnn)
+  - [PlaneRecover](#planerecover)
+  - [PlaneNet](#planenet)
+- [3D Scene Recon](#3d-scene-recon)
+  - [Factored3d](#factored3d)
+  - [3DSPR](#3dspr)
+- [Apperence Transfer](#apperence-transfer)
+  - [ToDayGAN](#todaygAN)
+  - [ATLoc](#atloc)
+  - [UNIT](#unit)
+  - [CycleGAN](#pix2pix)
+  - [Pix2Pix](#pix2pix)
 - [Camera relocalization](#camera-relocalization)
   - [VLocNet++](#vLocnet)
   - [VLocNet](#vLocnet-1)
@@ -59,12 +73,24 @@
 
 ------
 
+-----
+#### 3D Plane Recon
+
+##### PlaneRCNN
+[PlaneRCNN: 3D Plane Detection and Reconstruction from a Single Image](https://arxiv.org/abs/1812.04072)&nbsp[2018 arXiv]
+
+##### PlaneRecover
+[Recovering 3D Planes from a Single Image via Convolutional Neural Networks](https://arxiv.org/pdf/1812.04072)&nbsp[2018 ECCV]&nbsp[code: [tensorflow](https://github.com/fuy34/planerecover)]
+
+##### PlaneNet
+[PlaneNet: Piece-wise Planar Reconstruction from a Single RGB Image](https://arxiv.org/abs/1804.06278)&nbsp[2018 CVPR]&nbsp;[code: [tensorflow](https://github.com/art-programmer/PlaneNet)]&nbsp;[[project page](http://art-programmer.github.io/planenet.html)]
+
 #### 3D Scene Recon
 
 ##### Factored3d
 [Factoring Shape, Pose, and Layout from the 2D Image of a 3D Scene](https://arxiv.org/abs/1712.01812)&nbsp;[2018 CVPR]&nbsp;[code: [pytorch](https://github.com/shubhtuls/factored3d)]&nbsp;[[project page](https://shubhtuls.github.io/factored3d/)]
 
-##### H3DSPR
+##### 3DSPR
 
 [Holistic 3D Scene Parsing and Reconstruction from a Single RGB Image](https://arxiv.org/abs/1808.02201)&nbsp;[2018 ECCV]&nbsp;[code: [python](https://github.com/thusiyuan/holistic_scene_parsing)]&nbsp;[[project page](http://siyuanhuang.com/holistic_parsing/main.html)]
 
