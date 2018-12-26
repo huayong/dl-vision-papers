@@ -76,13 +76,13 @@
 #### 3D Plane Recon
 
 ##### PlaneRCNN
-[PlaneRCNN: 3D Plane Detection and Reconstruction from a Single Image](https://arxiv.org/abs/1812.04072)&nbsp[2018 arXiv]
+[PlaneRCNN: 3D Plane Detection and Reconstruction from a Single Image](https://arxiv.org/abs/1812.04072)&nbsp;[2018 arXiv]
 
 ##### PlaneRecover
-[Recovering 3D Planes from a Single Image via Convolutional Neural Networks](https://arxiv.org/pdf/1812.04072)&nbsp[2018 ECCV]&nbsp[code: [tensorflow](https://github.com/fuy34/planerecover)]
+[Recovering 3D Planes from a Single Image via Convolutional Neural Networks](https://arxiv.org/pdf/1812.04072)&nbsp;[2018 ECCV]&nbsp;[code: [tensorflow](https://github.com/fuy34/planerecover)]
 
 ##### PlaneNet
-[PlaneNet: Piece-wise Planar Reconstruction from a Single RGB Image](https://arxiv.org/abs/1804.06278)&nbsp[2018 CVPR]&nbsp;[code: [tensorflow](https://github.com/art-programmer/PlaneNet)]&nbsp;[[project page](http://art-programmer.github.io/planenet.html)]
+[PlaneNet: Piece-wise Planar Reconstruction from a Single RGB Image](https://arxiv.org/abs/1804.06278)&nbsp;[2018 CVPR]&nbsp;[code: [tensorflow](https://github.com/art-programmer/PlaneNet)]&nbsp;[[project page](http://art-programmer.github.io/planenet.html)]
 
 ------
 
