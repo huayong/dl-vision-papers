@@ -45,7 +45,7 @@
 [Interleaved Group Convolutions for Deep Neural Networks](https://arxiv.org/abs/1806.00178)&nbsp;[2018 BMVC]&nbsp;[code: [mxnet](https://github.com/homles11/IGCV3)]
 
 ##### IGC V2
-[IGCV$2$: Interleaved Structured Sparse Convolutional Neural Networks](https://arxiv.org/abs/1804.06202)&nbsp;[2018 CVPR]
+[IGCV2: Interleaved Structured Sparse Convolutional Neural Networks](https://arxiv.org/abs/1804.06202)&nbsp;[2018 CVPR]
 
 ##### IGC V1
 [Interleaved Group Convolutions for Deep Neural Networks](https://arxiv.org/abs/1707.02725)&nbsp;[2017 ICCV]&nbsp;[code: [mxnet](https://github.com/hellozting/InterleavedGroupConvolutions)]
@@ -68,5 +68,5 @@
 
 ##### SqueezeNet
 
-[SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and $<$0.5MB model size](https://arxiv.org/abs/1602.07360)&nbsp;[2016 arXiv]&nbsp;[code: [caffe](https://github.com/DeepScale/SqueezeNet)]
+[SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size](https://arxiv.org/abs/1602.07360)&nbsp;[2016 arXiv]&nbsp;[code: [caffe](https://github.com/DeepScale/SqueezeNet)]
 
