@@ -1,11 +1,12 @@
-#### Contents  
-- [Auto Framework](#auto-framework)	
+#### Mobile Arch
+- [Auto Base Arch](#auto-base-arch)	
+  - [ChamNet](#chamnet)
   - [Slimmable Neural Networks](#slimmable-neural-networks)
   - [PocketFlow](#pocketflow)
   - [MnasNet](#mnasnet)
   - [PNASNet](#pnasNet)
   - [NASNet](#nasNet)
-- [Mobile Arch](#mobile-arch)
+- [Hand Base Arch](#hand-base-arch)
   - [IGC V3](#igc-v3)
   - [IGC V2](#igc-v2)
   - [IGC V1](#igc-v1)
@@ -15,12 +16,19 @@
   - [MobileNet V1](#mobilenet-v1)
   - [SqueezeNext](#squeezenext)
   - [SqueezeNet](#squeezenet)
+  - [MENet](#menet)
+  - [FD-MobileNet](#fd-mobilenet)
+- [Hand Det Arch](#hand-det-arch)
+  - [Pelee](#pelee)
 
 ------
 
 ------
 
-#### Auto Framework
+#### Auto Base Arch
+
+##### ChamNet
+[ChamNet: Towards Efficient Network Design through Platform-Aware Model Adaptation](https://arxiv.org/abs/1812.08934)&nbsp;[2018 arXiv]
 
 ##### Slimmable Neural Networks
 [Slimmable Neural Networks](https://arxiv.org/abs/1812.08928)&nbsp;[2019 ICLR]&nbsp;[code: [pytorch](https://github.com/JiahuiYu/slimmable_networks)]
@@ -39,7 +47,7 @@
 
 ------
 
-#### Mobile Arch
+#### Hand Base Arch
 
 ##### IGC V3
 [Interleaved Group Convolutions for Deep Neural Networks](https://arxiv.org/abs/1806.00178)&nbsp;[2018 BMVC]&nbsp;[code: [mxnet](https://github.com/homles11/IGCV3)]
@@ -51,7 +59,6 @@
 [Interleaved Group Convolutions for Deep Neural Networks](https://arxiv.org/abs/1707.02725)&nbsp;[2017 ICCV]&nbsp;[code: [mxnet](https://github.com/hellozting/InterleavedGroupConvolutions)]
 
 ##### ShuffleNet V2
-
 [ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design](https://arxiv.org/abs/1807.11164)&nbsp;[2018 ECCV]&nbsp;[code: [caffe](https://github.com/farmingyard/ShuffleNet)]
 
 ##### ShuffleNet V1
@@ -70,3 +77,15 @@
 
 [SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size](https://arxiv.org/abs/1602.07360)&nbsp;[2016 arXiv]&nbsp;[code: [caffe](https://github.com/DeepScale/SqueezeNet)]
 
+##### MENet
+[Merging and Evolution: Improving Convolutional Neural Networks for Mobile Applications](https://arxiv.org/abs/1803.09127)&nbsp;[2018 IJCNN]&nbsp;[code: [pytorch](https://github.com/clavichord93/MENet)]
+
+##### FD-MobileNet
+[FD-MobileNet: Improved MobileNet with a Fast Downsampling Strategy](https://arxiv.org/abs/1802.03750)&nbsp;[2018 arXiv]
+
+------
+
+#### Hand Det Arch
+
+##### Pelee
+[Pelee: A Real-Time Object Detection System on Mobile Devices](https://arxiv.org/abs/1804.06882)&nbsp;[2018 NIPS]&nbsp;[code: [caffe](https://github.com/Robert-JunWang/Pelee)]
