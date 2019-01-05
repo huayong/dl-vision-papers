@@ -7,6 +7,14 @@
 1. 移动端模型框架，包括MobileNet和ShuffleNet系列等；
 2. 模型框架自动学习，包括NASNet系列等；
 
+[3D Recon](https://github.com/huayong/dl-vision-papers/tree/master/3d-recon)
+
+一般来说利用学习的方法进行重新，重建后的三维结构也包括三维语义的信息。
+
+1. 场景重建；
+2. 物体重建；
+3. 平面重建；
+
 [3D Data Architecture](https://github.com/huayong/dl-vision-papers/tree/master/3d-archs)
 
 1. 点云为输入的模型框架，包括PointNet系列等；
