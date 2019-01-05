@@ -1,13 +1,13 @@
-#### Mobile Arch
-- [Auto Base Arch](#auto-base-arch)	
-- [Hand Base Arch](#hand-base-arch)
-- [Hand Det Arch](#hand-det-arch)
+#### Mobile Archs
+- [Auto Base Archs](#auto-base-archs)	
+- [Hand Base Archs](#hand-base-archs)
+- [Hand Det Archs](#hand-det-archs)
 
 ------
 
 ------
 
-#### Auto Base Arch
+#### Auto Base Archs
 
 ##### ChamNet
 [ChamNet: Towards Efficient Network Design through Platform-Aware Model Adaptation](https://arxiv.org/abs/1812.08934)&nbsp;[2018 arXiv]
@@ -29,7 +29,7 @@
 
 ------
 
-#### Hand Base Arch
+#### Hand Base Archs
 
 ##### IGC V3
 [Interleaved Group Convolutions for Deep Neural Networks](https://arxiv.org/abs/1806.00178)&nbsp;[2018 BMVC]&nbsp;[code: [mxnet](https://github.com/homles11/IGCV3)]
@@ -67,7 +67,7 @@
 
 ------
 
-#### Hand Det Arch
+#### Hand Det Archs
 
 ##### Pelee
 [Pelee: A Real-Time Object Detection System on Mobile Devices](https://arxiv.org/abs/1804.06882)&nbsp;[2018 NIPS]&nbsp;[code: [caffe](https://github.com/Robert-JunWang/Pelee)]
