@@ -1,25 +1,12 @@
 #### Contents  
 - [Global Feature](#global-feature)  
-  - [DLEF](#dlef)
-  - [PlaNet](#planet)
-  - [NetVLAD](#netvlad)
-  - [DenseVLAD](#densevlad)
-- [Local Feature](#local-feature)  
-  - [SuperPoint](#superpoint)
-  - [GeoDesc](#geodesc)
-  - [Quad-networks](#quad-networks)
-  - [UCN](#ucn)
-  - [LIFT](#lift)
-  - [DeepDesc](#deepdesc)
-  - [TILDE](#tilde)
-  - [*Evaluation*](#evaluation)
+- [Local Feature](#local-feature) 
 
 ------
 
 ------
 
 #### Global Feature
-or called Image Retrieval and Place Recognition and Image Representation and Image Desciptor
 
 ##### DLEF
 [ Large-Scale Image Retrieval with Attentive Deep Local Features](https://arxiv.org/pdf/1612.06321.pdf)&nbsp;[2017 ICCV]&nbsp;[code: [tensorflow](https://github.com/tensorflow/models/tree/master/research/delf)]
@@ -33,28 +20,35 @@ or called Image Retrieval and Place Recognition and Image Representation and Ima
 ##### DenseVLAD
 [24/7 place recognition by view synthesis](http://www.ok.ctrl.titech.ac.jp/~torii/project/247/download/Torii-CVPR-2015-final.pdf)&nbsp;[2015 CVPR]&nbsp;[code: [c++](http://www.ok.ctrl.titech.ac.jp/~torii/project/247/)]&nbsp;[[project page](http://www.ok.ctrl.titech.ac.jp/~torii/project/247/)]
 
-##### *Benchmark*
+##### *Evaluation*
 
 ------
 
 #### Local Feature
 
-|               | detect | desc |
-| ------------- | ------ | ---- |
-| GeoDesc       |        |      |
-| LF-NET        |        |      |
-| SIPS          |        |      |
-| DOAP          |        |      |
-| SuperPoint    | Y      | Y    |
-| AffNet        |        |      |
-| HardNet       |        |      |
-| Quad-networks |        |      |
-| UCN           |        |      |
-| LIFT          |        |      |
-| DeepDesc      |        |      |
-| DeepCompare   |        |      |
-| TILDE         |        |      |
-| MatchNet      |        |      |
+|                                  | detect | desc | type | length |
+| -------------------------------- | ------ | ---- | ---- | ------ |
+| [GeoDesc](#geodesc)              |        |      |      |        |
+| [LF-NET](lf-net)                 |        |      |      |        |
+| [SIPS](sips)                     |        |      |      |        |
+| [DOAP](doap)                     |        |      |      |        |
+| [SuperPoint](superpoint)         | Y      | Y    | real | 256    |
+| [AffNet](affnet)                 |        |      |      |        |
+| [HardNet](hardnet)               |        |      |      |        |
+| [Spread-out](spread-out)         |        |      |      |        |
+| [DeepCD](deepcd)                 |        |      |      |        |
+| [Quad-networks](quad-networks)   |        |      |      |        |
+| [L2-Net](l2-net)                 |        |      |      |        |
+| [UCN](ucn)                       |        |      |      |        |
+| [LIFT](lift)                     |        |      |      |        |
+| [DeepPatchMatch](deeppatchmatch) |        |      |      |        |
+| [DeepBit](deepbit)               |        |      |      |        |
+| [TFeat](tfeat)                   |        |      |      |        |
+| [PN-Net](pn-net)                 |        |      |      |        |
+| [DeepDesc](deepdesc)             |        |      |      |        |
+| [DeepCompare](deepcompare)       |        |      |      |        |
+| [TILDE](tilde)                   |        |      |      |        |
+| [MatchNet](matchnet)             |        |      |      |        |
 
 ##### GeoDesc
 [GeoDesc: Learning Local Descriptors by Integrating Geometry Constraints](https://arxiv.org/abs/1807.06294)&nbsp;[2018 ECCV]&nbsp;[code: [tensorflow](https://github.com/lzx551402/geodesc)]
@@ -77,14 +71,35 @@ or called Image Retrieval and Place Recognition and Image Representation and Ima
 ##### HardNet
 [Working hard to know your neighbor’s margins: Local descriptor learning loss](https://arxiv.org/abs/1705.10872)&nbsp;[2017 NIPS][code: [pytorch](https://github.com/DagnyT/hardnet)]
 
+##### Spread-out
+[Learning Spread-out Local Feature Descriptors]()&nbsp;[2017 ICCV]
+
+##### DeepCD
+[DeepCD: Learning Deep Complementary Descriptors for Patch Representations]()&nbsp;[2017 ICCV]
+
 ##### Quad-networks
 [Quad-networks: unsupervised learning to rank for interest point detection](https://arxiv.org/abs/1611.07571)&nbsp;[2017 CVPR]
+
+##### L2-Net
+[L2-Net: Deep Learning of Discriminative Patch Descriptor in Euclidean Space]()&nbsp;[2017 CVPR]
 
 ##### UCN
 [Universal Correspondence Network](https://arxiv.org/abs/1606.03558)&nbsp;[2016 NIPS]
 
 ##### LIFT
 [LIFT: Learned Invariant Feature Transform](https://arxiv.org/abs/1603.09114)&nbsp;[2016 ECCV]
+
+##### DeepPatchMatch
+[Learning Local Image Descriptors with Deep Siamese and Triplet Convolutional Networks by Minimizing Global Loss Functions]()&nbsp;[2016 CVPR]
+
+##### DeepBit
+[Learning Compact Binary Descriptors with Unsupervised Deep Neural Networks]()&nbsp;[2016 CVPR]
+
+##### TFeat
+[Learning local feature descriptors with triplets and shallow convolutional neural networks]()&nbsp;[2016 BMVC]
+
+##### PN-Net
+[PN-Net: Conjoined Triple Deep Network for Learning Local Image Descriptors]()&nbsp;[2016 arXiv]
 
 ##### DeepDesc
 [ Discriminative Learning of Deep Convolutional Feature Point Descriptors](https://icwww.epfl.ch/~trulls/pdf/iccv-2015-deepdesc.pdf)&nbsp;[2015 ICCV]
@@ -100,10 +115,8 @@ or called Image Retrieval and Place Recognition and Image Representation and Ima
 
 ##### *Evaluation* 
 
-Protocol
-
-[A performance evaluation of local descriptors](https://www.robots.ox.ac.uk/~vgg/research/affine/det_eval_files/mikolajczyk_pami2004.pdf)&nbsp;[2005 PAMI]
-
-Data
+[Comparative Evaluation of Hand-Crafted and Learned Local Features]()&nbsp;[2017 CVPR]
 
 [HPatches: A Benchmark and Evaluation of Handcrafted and Learned Local Descriptors](https://arxiv.org/abs/1704.05939)&nbsp;[2017 CVPR]
+
+[A performance evaluation of local descriptors](https://www.robots.ox.ac.uk/~vgg/research/affine/det_eval_files/mikolajczyk_pami2004.pdf)&nbsp;[2005 PAMI]

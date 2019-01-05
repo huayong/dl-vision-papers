@@ -1,25 +1,7 @@
 #### Mobile Arch
 - [Auto Base Arch](#auto-base-arch)	
-  - [ChamNet](#chamnet)
-  - [Slimmable Neural Networks](#slimmable-neural-networks)
-  - [PocketFlow](#pocketflow)
-  - [MnasNet](#mnasnet)
-  - [PNASNet](#pnasNet)
-  - [NASNet](#nasNet)
 - [Hand Base Arch](#hand-base-arch)
-  - [IGC V3](#igc-v3)
-  - [IGC V2](#igc-v2)
-  - [IGC V1](#igc-v1)
-  - [ShuffleNet V2](#shufflenet-v2)
-  - [ShuffleNet V1](#shufflenet-v1)
-  - [MobileNet V2](#mobilenet-v2)
-  - [MobileNet V1](#mobilenet-v1)
-  - [SqueezeNext](#squeezenext)
-  - [SqueezeNet](#squeezenet)
-  - [MENet](#menet)
-  - [FD-MobileNet](#fd-mobilenet)
 - [Hand Det Arch](#hand-det-arch)
-  - [Pelee](#pelee)
 
 ------
 

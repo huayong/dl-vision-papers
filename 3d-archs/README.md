@@ -1,10 +1,6 @@
 #### Contents  
 
 - [Point Cloud](#point-cloud)   
-  - [PointSift](#pointsift) 
-  - [PointCNN](#pointcnn) 
-  - [PointNet++](#pointnet)  
-  - [PointNet](#pointnet-1) 
 
 ------
 
