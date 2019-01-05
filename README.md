@@ -2,7 +2,7 @@
 
 1. 基础的提取特征的模型框架，包括AlexNet、Googlenet、ResNet和DenseNet系列等；
 
-[Mobile Architecture](https://github.com/huayong/dl-vision-papers/tree/master/light-archs)
+[Mobile Architecture](https://github.com/huayong/dl-vision-papers/tree/master/mobile-archs)
 
 1. 移动端模型框架，包括MobileNet和ShuffleNet系列等；
 2. 模型框架自动学习，包括NASNet系列等；
