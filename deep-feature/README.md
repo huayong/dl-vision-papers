@@ -66,22 +66,22 @@
 [SuperPoint: Self-Supervised Interest Point Detection and Description](https://arxiv.org/abs/1712.07629)&nbsp;[2017 arXiv]&nbsp;[code: [pytorch](https://github.com/MagicLeapResearch/SuperPointPretrainedNetwork)]
 
 ##### AffNet
-[Repeatability Is Not Enough: Learning Affine Regions via Discriminability](https://arxiv.org/abs/1711.06704)&nbsp;[2018 ECCV][code: [pytorch](https://github.com/ducha-aiki/affnet)]
+[Repeatability Is Not Enough: Learning Affine Regions via Discriminability](https://arxiv.org/abs/1711.06704)&nbsp;[2018 ECCV]&nbsp;[code: [pytorch](https://github.com/ducha-aiki/affnet)]
 
 ##### HardNet
-[Working hard to know your neighbor’s margins: Local descriptor learning loss](https://arxiv.org/abs/1705.10872)&nbsp;[2017 NIPS][code: [pytorch](https://github.com/DagnyT/hardnet)]
+[Working hard to know your neighbor’s margins: Local descriptor learning loss](https://arxiv.org/abs/1705.10872)&nbsp;[2017 NIPS]&nbsp;[code: [pytorch](https://github.com/DagnyT/hardnet)]
 
 ##### Spread-out
-[Learning Spread-out Local Feature Descriptors]()&nbsp;[2017 ICCV]
+[Learning Spread-out Local Feature Descriptors](https://arxiv.org/abs/1708.06320)&nbsp;[2017 ICCV]&nbsp;[code: [tensorflow](https://github.com/ColumbiaDVMM/Spread-out_Local_Feature_Descriptor)]
 
 ##### DeepCD
-[DeepCD: Learning Deep Complementary Descriptors for Patch Representations]()&nbsp;[2017 ICCV]
+[DeepCD: Learning Deep Complementary Descriptors for Patch Representations](https://www.csie.ntu.edu.tw/~cyy/publications/papers/Yang2017DLD.pdf)&nbsp;[2017 ICCV]&nbsp;[code: [tensorflow](https://github.com/shamangary/DeepCD)]
 
 ##### Quad-networks
 [Quad-networks: unsupervised learning to rank for interest point detection](https://arxiv.org/abs/1611.07571)&nbsp;[2017 CVPR]
 
 ##### L2-Net
-[L2-Net: Deep Learning of Discriminative Patch Descriptor in Euclidean Space]()&nbsp;[2017 CVPR]
+[L2-Net: Deep Learning of Discriminative Patch Descriptor in Euclidean Space](http://www.nlpr.ia.ac.cn/fanbin/pub/L2-Net_CVPR17.pdf)&nbsp;[2017 CVPR]&nbsp;[code: [matconvnet](https://github.com/yuruntian/L2-Net)]
 
 ##### UCN
 [Universal Correspondence Network](https://arxiv.org/abs/1606.03558)&nbsp;[2016 NIPS]
@@ -89,17 +89,17 @@
 ##### LIFT
 [LIFT: Learned Invariant Feature Transform](https://arxiv.org/abs/1603.09114)&nbsp;[2016 ECCV]
 
-##### DeepPatchMatch
-[Learning Local Image Descriptors with Deep Siamese and Triplet Convolutional Networks by Minimizing Global Loss Functions]()&nbsp;[2016 CVPR]
-
-##### DeepBit
-[Learning Compact Binary Descriptors with Unsupervised Deep Neural Networks]()&nbsp;[2016 CVPR]
-
 ##### TFeat
-[Learning local feature descriptors with triplets and shallow convolutional neural networks]()&nbsp;[2016 BMVC]
+[Learning local feature descriptors with triplets and shallow convolutional neural networks](http://www.bmva.org/bmvc/2016/papers/paper119/paper119.pdf)&nbsp;[2016 BMVC]&nbsp;[code: [pytorch](https://github.com/vbalnt/tfeat)]
 
 ##### PN-Net
-[PN-Net: Conjoined Triple Deep Network for Learning Local Image Descriptors]()&nbsp;[2016 arXiv]
+[PN-Net: Conjoined Triple Deep Network for Learning Local Image Descriptors](https://arxiv.org/abs/1601.05030)&nbsp;[2016 arXiv]&nbsp;[code: [pytorch](https://github.com/vbalnt/pnnet)]
+
+##### DeepPatchMatch
+[Learning Local Image Descriptors with Deep Siamese and Triplet Convolutional Networks by Minimizing Global Loss Functions](https://arxiv.org/abs/1512.09272)&nbsp;[2016 CVPR]&nbsp;[code: [matconvnet](https://github.com/vijaykbg/deep-patchmatch)]
+
+##### DeepBit
+[Learning Compact Binary Descriptors with Unsupervised Deep Neural Networks](http://www.iis.sinica.edu.tw/~kevinlin311.tw/cvpr16-deepbit.pdf)&nbsp;[2016 CVPR]&nbsp;[code: [caffe](https://github.com/kevinlin311tw/cvpr16-deepbit)]
 
 ##### DeepDesc
 [ Discriminative Learning of Deep Convolutional Feature Point Descriptors](https://icwww.epfl.ch/~trulls/pdf/iccv-2015-deepdesc.pdf)&nbsp;[2015 ICCV]

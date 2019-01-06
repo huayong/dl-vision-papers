@@ -10,10 +10,10 @@
 #### Retrieval Based
 
 ##### CoarseToFine
-[From Coarse to Fine: Robust Hierarchical Localization at Large Scale]()&nbsp;[2018 arXiv]
+[From Coarse to Fine: Robust Hierarchical Localization at Large Scale](https://arxiv.org/abs/1812.03506)&nbsp;[2018 arXiv]
 
 ##### HierarchicalLoc
-[Leveraging Deep Visual Descriptors for Hierarchical Efficient Localization]()&nbsp;[2018 CoRL]
+[Leveraging Deep Visual Descriptors for Hierarchical Efficient Localization](https://arxiv.org/abs/1809.01019)&nbsp;[2018 CoRL]&nbsp;[code: [tensorflow](https://github.com/ethz-asl/hierarchical_loc)]
 
 ------
 
@@ -25,16 +25,19 @@
 ##### DeLS-3D
 [DeLS-3D: Deep Localization and Segmentation with a 3D Semantic Map](https://arxiv.org/abs/1805.04949)&nbsp;[2018 CVPR]&nbsp;[code: [only test](https://github.com/pengwangucla/DeLS-3D)]
 
-##### Semantic Visual Localization
-[Semantic Visual Localization](https://arxiv.org/abs/1712.05773)&nbsp;[2018 CVPR]&nbsp;[code: [only test](https://github.com/pengwangucla/DeLS-3D)]
+##### SVL
+[Semantic Visual Localization](https://arxiv.org/abs/1712.05773)&nbsp;[2018 CVPR]
 
-##### SSI
+##### Semantically Segmented Images
 [Long-term Visual Localization using Semantically Segmented Images](https://arxiv.org/abs/1801.05269)&nbsp;[2018 ICRA]
 
 ##### Semantic Match Consistency
 [Semantic Match Consistency for Long-Term Visual Localization](http://people.inf.ethz.ch/sattlert/publications/Toft2018ECCV.pdf)&nbsp;[2018 ECCV]
 
-##### SL
+##### Semantics-aware Visual Localization
+[Semantics-aware Visual Localization under Challenging Perceptual Conditions](https://lmb.informatik.uni-freiburg.de/Publications/2017/OB17/naseer17icra.pdf)&nbsp;[2017 ICRA]
+
+##### Semantic Labellings
 [Long-term 3D Localization and Pose from Semantic Labellings](http://www2.maths.lth.se/vision/publdb/reports/pdf/toft-etal-iccv-2017.pdf)&nbsp;[2017 ICCV]
 
 ------
@@ -56,14 +59,16 @@
 
 ##### VLocNet++
 
-[VLocNet++: Deep Multitask Learning for Semantic Visual Localization and
-Odometry](https://arxiv.org/abs/1804.08366)&nbsp;[2018 RAL]
+[VLocNet++: Deep Multitask Learning for Semantic Visual Localization and Odometry](https://arxiv.org/abs/1804.08366)&nbsp;[2018 RAL]&nbsp;[[project page](http://deeploc.cs.uni-freiburg.de/)]
 
 ##### VLocNet
-[Deep Auxiliary Learning for Visual Localization and Odometry](https://arxiv.org/abs/1803.03642)&nbsp;[2018 ICRA]
+[Deep Auxiliary Learning for Visual Localization and Odometry](https://arxiv.org/abs/1803.03642)&nbsp;[2018 ICRA]&nbsp;[[project page](http://deeploc.cs.uni-freiburg.de/)]
+
+##### RelocNet
+[RelocNet: Continuous Metric Learning Relocalisation using Neural Nets](http://openaccess.thecvf.com/content_ECCV_2018/papers/Vassileios_Balntas_RelocNet_Continous_Metric_ECCV_2018_paper.pdf)&nbsp;[2018 ECCV]&nbsp;[[project page](http://relocnet.avlcode.org/)]
 
 ##### MapNet 
-[ Geometry-Aware Learning of Maps for Camera Localization](https://arxiv.org/abs/1712.03342)&nbsp;[2018 CVPR]&nbsp;[code: [pytorch](https://github.com/NVlabs/geomapnet)]&nbsp;[[project page](https://research.nvidia.com/publication/2018-06_Geometry-Aware-Learning-of)]
+[Geometry-Aware Learning of Maps for Camera Localization](https://arxiv.org/abs/1712.03342)&nbsp;[2018 CVPR]&nbsp;[code: [pytorch](https://github.com/NVlabs/geomapnet)]&nbsp;[[project page](https://research.nvidia.com/publication/2018-06_Geometry-Aware-Learning-of)]
 
 ##### LessMore
 [Learning Less is More - 6D Camera Localization via 3D Surface Regression](https://arxiv.org/abs/1711.10228) [2018 CVPR]&nbsp;[code: [torch](https://github.com/vislearn/LessMore)]&nbsp;[[project page](https://hci.iwr.uni-heidelberg.de/vislearn/research/scene-understanding/pose-estimation/#CVPR18)]
@@ -97,7 +102,14 @@ Odometry](https://arxiv.org/abs/1804.08366)&nbsp;[2018 RAL]
 
 ##### *Benchmark* 
 
-[Cambridge Landmarks](http://mi.eng.cam.ac.uk/projects/relocalisation/)<br />
-[7-Scenes](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/)<br />
-[Oxford RobotCar](https://robotcar-dataset.robots.ox.ac.uk/)<br />
-[Dubrovnik6K and Rome16K ](http://www.cs.cornell.edu/projects/p2f/)<br />
+[RelocDB](http://relocnet.avlcode.org/) from [RelocNet](#relocnet)
+
+[DeepLoc](http://deeploc.cs.uni-freiburg.de/) from [VLocNet](#vLocnet)
+
+[Cambridge Landmarks](http://mi.eng.cam.ac.uk/projects/relocalisation/) from [PoseNet](posenet)
+
+[7-Scenes](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/)
+
+[Oxford RobotCar](https://robotcar-dataset.robots.ox.ac.uk/)
+
+[Dubrovnik6K and Rome16K ](http://www.cs.cornell.edu/projects/p2f/)

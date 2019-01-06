@@ -16,7 +16,7 @@
 [Holistic 3D Scene Parsing and Reconstruction from a Single RGB Image](https://arxiv.org/abs/1808.02201)&nbsp;[2018 ECCV]&nbsp;[code: [python](https://github.com/thusiyuan/holistic_scene_parsing)]&nbsp;[[project page](http://siyuanhuang.com/holistic_parsing/main.html)]
 
 ##### SSCNet
-[Semantic Scene Completion from a Single Depth Image]()&nbsp;[2017 CVPR]&nbsp;[code: [caffe](https://github.com/shurans/sscnet)]&nbsp;[[project page](http://sscnet.cs.princeton.edu/)]
+[Semantic Scene Completion from a Single Depth Image](https://arxiv.org/abs/1611.08974)&nbsp;[2017 CVPR]&nbsp;[code: [caffe](https://github.com/shurans/sscnet)]&nbsp;[[project page](http://sscnet.cs.princeton.edu/)]
 
 ------
 
