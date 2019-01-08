@@ -32,5 +32,11 @@
 ##### PlaneRecover
 [Recovering 3D Planes from a Single Image via Convolutional Neural Networks](https://arxiv.org/pdf/1812.04072)&nbsp;[2018 ECCV]&nbsp;[code: [tensorflow](https://github.com/fuy34/planerecover)]
 
+> 1. 针对室外无人车城市道路场景；
+> 2. 利用CNN网络预测plane参数，同时预测plane区域(不是语义分割)；
+
 ##### PlaneNet
 [PlaneNet: Piece-wise Planar Reconstruction from a Single RGB Image](https://arxiv.org/abs/1804.06278)&nbsp;[2018 CVPR]&nbsp;[code: [tensorflow](https://github.com/art-programmer/PlaneNet)]&nbsp;[[project page](http://art-programmer.github.io/planenet.html)]
+
+> 1. 针对室内家居场景；
+> 2. 利用CNN网络预测plane参数，同时预测plane的depth和语义分割区域；

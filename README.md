@@ -15,11 +15,15 @@
 2. 物体重建；
 3. 平面重建；
 
-[Deep SLAM](https://github.com/huayong/dl-vision-papers/tree/master/deep-slam)
+[3D Vision](https://github.com/huayong/dl-vision-papers/tree/master/3d-vision)
 
-1. 学习方法应用到SLAM上，包括一些语义信息的辅助SLAM等；
-2. VO，利用学习方法求前后帧的Relative Pose；
+1. SFM，利用网络恢复pose和depth等；
+2. MVS，利用CNN网络恢复多帧depth等；
+2. 学习方法应用到SLAM上，包括一些语义信息的辅助SLAM和动态场景下SLAM等；
+2. VO，利用CNN求前后帧的Relative Pose；
 3. VIO，结合IMU信息求前后帧的Relative Pose；
+4. 利用CNN网络直接估计单帧图像Depth；
+5. 利用CNN网络估计前后帧之间Flow信息；
 
 [3D Data Architecture](https://github.com/huayong/dl-vision-papers/tree/master/3d-archs)
 
