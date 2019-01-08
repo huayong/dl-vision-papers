@@ -53,14 +53,29 @@
 ##### MagicVO
 [MagicVO: End-to-End Monocular Visual Odometry through Deep Bi-directional Recurrent Convolutional Neural Network](https://arxiv.org/abs/1811.10964)&nbsp;[2018 arXiv]
 
+> 1. 这里使用Bi-LSTM，不仅利用前面帧的信息，同时还利用的后面帧的信息（整体和[DeepVO](#deepvo)有点类似）；
+> 2. 这里使用Bi-LSTM求解VO，虽然Bi-LSTM能利用前后帧信息，但是在实际使用过程，后面的帧图像无法预先获得；
+
 ##### VSO
 [VSO: Visual Semantic Odometry](https://demuc.de/papers/lianos2018vso.pdf)&nbsp;[2018 ECCV]
+
+##### LS-VO
+[LS-VO: Learning Dense Optical Subspace for Robust Visual Odometry Estimation](https://arxiv.org/abs/1709.06019)&nbsp;[2018 ICRA]&nbsp;[code: [keras](https://github.com/isarlab-department-engineering/LSVO)]
+
+> 1. 在光流结果上利用CNN压缩特征，利用该特征再去求取relative pose；
 
 ##### UnDeepVO 
 [UnDeepVO: Monocular Visual Odometry through Unsupervised Deep Learning](https://arxiv.org/abs/1709.06841)&nbsp;[2018 arXiv]&nbsp;[[project page](http://senwang.gitlab.io/UnDeepVO/)]
 
+> 1. 利用已知baseline的双目图像去非监督学习depth(这个也是非监督学习depth的经典做法)；
+> 2. 利用上面求解的depth约束前后帧图像photometric一致性以及前后帧3d几何关系一致性，这样loss确定，可以非监督去求解relative pose；
+
 ##### DeepVO 
+
 [DeepVO: Towards End-to-End Visual Odometry with Deep Recurrent Convolutional Neural Networks](https://arxiv.org/abs/1709.08429)&nbsp;[2017 ICRA]&nbsp;[[project page](http://senwang.gitlab.io/DeepVO/)] 
+
+> 1. 前后帧拼接企图特征；
+> 2. 特征利用LSTM向后传递，使用两次LSTM；
 
 ------
 

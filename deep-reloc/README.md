@@ -12,8 +12,17 @@
 ##### CoarseToFine
 [From Coarse to Fine: Robust Hierarchical Localization at Large Scale](https://arxiv.org/abs/1812.03506)&nbsp;[2018 arXiv]
 
+> 1. 这篇工作是[HierarchicalLoc](#hierarchicalloc)的延续，基本思路一致，主要不同就是把2d-3d中的SIFT等传统描述符换成了现在比较火的deep feature，具体是[SuperPoint](#https://github.com/huayong/dl-vision-papers/tree/master/deep-feature#superpoint)；
+> 2. 当然SuperPoint也是训练了一个轻量级mobile版本的，只不过是把NetVLAD一起来train；
+
 ##### HierarchicalLoc
+
 [Leveraging Deep Visual Descriptors for Hierarchical Efficient Localization](https://arxiv.org/abs/1809.01019)&nbsp;[2018 CoRL]&nbsp;[code: [tensorflow](https://github.com/ethz-asl/hierarchical_loc)]
+
+> 1. 利用image retrieval(轻量级mobile版本的[NetVLAD](https://github.com/huayong/dl-vision-papers/tree/master/deep-feature#netvlad))方式获取query image最相似的kfs；
+> 2. 对获取的top k的kfs做covisibility clustering，其实思路比较简单，就是能观察到相同map中的3d points聚集成一类；
+> 3. 利用上面kfs观察到的loca 3d points(local map)来做2d-3d的matching，这样可以直接做暴力的查找，而且是在相似的局部空间来做，效果比全图2d-3d要好；相当于利用retrieval代替了kd-tree或者BoW等加速方法（虽然这些可以加速，但同时会把inliers过滤掉，损害最后的精度），但是对精度影响不大；
+> 3. 利用蒸馏方法在原有NetVLAD的基础上训练轻量级的；
 
 ------
 
