@@ -14,8 +14,14 @@
 
 #### SFM
 
+##### SfMLearner++
+[SfMLearner++: Learning Monocular Depth & Ego-Motion using Meaningful Geometric Constraints](https://arxiv.org/abs/1812.08370)&nbsp;[2019 WACV]
+
 ##### GeoNet
 [GeoNet: Unsupervised Learning of Dense Depth, Optical Flow and Camera Pose](https://arxiv.org/abs/1803.02276)&nbsp;[2018 CVPR]&nbsp;[code: [tensorflow](https://github.com/yzcjtr/GeoNet)]
+
+##### BA-Net
+[BA-Net: Dense Bundle Adjustment Network](https://arxiv.org/abs/1806.04807)&nbsp;[2018 arXiv]
 
 ##### SfMLearner
 [Unsupervised Learning of Depth and Ego-Motion from Video](https://arxiv.org/abs/1704.07813)&nbsp;[2017 CVPR]&nbsp;[code: [tensorflow](https://github.com/tinghuiz/SfMLearner)]&nbsp;[[project page](https://people.eecs.berkeley.edu/~tinghuiz/projects/SfMLearner/)]
@@ -117,6 +123,12 @@
 ------
 
 #### Depth Estimation
+
+##### Depth VO Feat
+[Unsupervised Learning of Monocular Depth Estimation and Visual Odometry with Deep Feature Reconstruction](https://arxiv.org/abs/1803.03893)&nbsp;[2018 CVPR]&nbsp;[code: [caffe](https://github.com/Huangying-Zhan/Depth-VO-Feat)]
+
+##### Vid2Depth
+[Unsupervised Learning of Depth and Ego-Motion from Monocular Video Using 3D Geometric Constraints](https://arxiv.org/abs/1802.05522)&nbsp;[2018 CVPR]&nbsp;[code: [tensorflow](https://github.com/tensorflow/models/tree/master/research/vid2depth)]&nbsp;[[project page](https://sites.google.com/view/vid2depth)]
 
 ##### monoDepth
 [Unsupervised Monocular Depth Estimation with Left-Right Consistency](https://arxiv.org/abs/1609.03677)&nbsp;[2017 CVPR]&nbsp;[code: [tensorflow](https://github.com/mrharicot/monodepth)]&nbsp;[[project page](http://visual.cs.ucl.ac.uk/pubs/monoDepth/)]
