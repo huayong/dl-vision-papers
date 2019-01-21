@@ -37,7 +37,7 @@ $$
 
 5. 这里定义了 $[h_min,h_max]$ 作为 $h$ 的取值区间，那么对于原来的圆锥截面来说，变成了一小段圆锥区域。如果把这些区域头投影到地平面上，得到2d error shape（所有圆锥截面投影的合集）。这样就把 $h$ 的的不确定又转换成相机位置的问题，后面优化在2d error shape空间优化就可以了，如下图：
 
-  ![2d-error-shape](https://github.com/huayong/dl-vision-papers/blob/master/camera-loc/notes/local-feature-based/came-pose-voting-2d-error-shape.png)
+  ![2d-error-shape](https://github.com/huayong/dl-vision-papers/blob/master/camera-loc/notes/local-feature-based/camera-pose-voting-2d-error-shape.png)
 
 #### 线性时间的pose voting
 
@@ -67,8 +67,6 @@ $$
 然后变换旋转 $\phi$ 角度，得到每个匹配 $m$ 在global全局坐标系下的voting shape如下图：
 
 ![voting-shape](https://github.com/huayong/dl-vision-papers/blob/master/camera-loc/notes/local-feature-based/camera-pose-voting-voting-shape.png)
-
-
 
 其实简单理解这个就是在某个camera pose下，2d点对应的inliers的3d的取值范围，此时匹配的3d点在global全局坐标系下的坐标是已知的，
 
