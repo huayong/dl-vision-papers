@@ -120,7 +120,7 @@
 [Scene coordinate regression forests for camera relocalization in rgb-d images](https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Shotton_Scene_Coordinate_Regression_2013_CVPR_paper.pdf)&nbsp;[2013 CVPR]
 
 ##### Camera Pose Voting
-[Camera Pose Voting for Large-Scale Image-Based Localization](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zeisl_Camera_Pose_Voting_ICCV_2015_paper.pdf)&nbsp;[2015 ICCV]&nbsp;[[note](https://github.com/huayong/dl-vision-papers/tree/master/camera-loc/notes/local-feature-based/camera-pose-voting.md)]
+[Camera Pose Voting for Large-Scale Image-Based Localization](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zeisl_Camera_Pose_Voting_ICCV_2015_paper.pdf)&nbsp;[2015 ICCV]&nbsp;[[note](https://github.com/huayong/dl-vision-papers/blob/master/camera-loc/notes/local-feature-based/camera-pose-voting.md)]
 
 ##### Structure-less Resection
 [Structure from Motion Using Structure-less Resection](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zheng_Structure_From_Motion_ICCV_2015_paper.pdf)&nbsp;[2015 ICCV]
