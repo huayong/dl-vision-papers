@@ -69,11 +69,39 @@
 ##### Semantic Match Consistency
 [Semantic Match Consistency for Long-Term Visual Localization](http://people.inf.ethz.ch/sattlert/publications/Toft2018ECCV.pdf)&nbsp;[2018 ECCV]
 
+> 主要思路：
+> 
+> 本文和[Semantic Labellings](#semantic-labellings)一个作者，也是利用语义信息去辅助long-term定位问题。这里是在传统2d-3d的基础上利用语义信息的一致性对每个匹配进行打分，分值当做权值进行传统的2d-3d求解。
+> 
+> 主要流程：
+> 
+> 1. 2d-3d匹配pose估计值生成阶段：在2d-3d描述符计算matching过程中，对每个2d-3d的匹配关系都生成了一系列的pose估计值；假设query图像局部相机坐标系的重力方向g是已知的，
+
 ##### Semantics-aware Visual Localization
 [Semantics-aware Visual Localization under Challenging Perceptual Conditions](https://lmb.informatik.uni-freiburg.de/Publications/2017/OB17/naseer17icra.pdf)&nbsp;[2017 ICRA]
 
 ##### Semantic Labellings
 [Long-term 3D Localization and Pose from Semantic Labellings](http://www2.maths.lth.se/vision/publdb/reports/pdf/toft-etal-iccv-2017.pdf)&nbsp;[2017 ICCV]
+
+> 主要思路：
+>
+> ​        只利用图像语义分割label信息来进行定位，为了解决不同天气、季节以及光照等变化带来的long-term定位的问题，此时利用local feature的2d-3d方法明显是不可靠的了。
+> 输入只有query image的语义label，地图中存储的是3D点、curves和点的语义信息；
+>
+> 主要流程：
+>
+> 1. 基于每张图像（地图和query） 的语义分割结果上半部分分成2x3的6个区域，每个区域进行label数目直方图统计以及计算building和vegetation二值语义图的梯度直方图，归一化拼接成一个向量当做image的描述符；用该描述符可以进行图像检索，检索出的最近image的pose可以当做优化的初始的pose；(防止随机初始化陷入局部最优解)
+> 2. 优化pose求解，这个部分就是和之前不同的情况，之前是优化的projection error，现在优化的有两项，一个是地图3D点投影到image上和相同该点label的距离，但因为3d点是稀疏的，只用该项优化得不到精确的pose，另一个优化就是利用不同label之间的contour，建图会存储3d curves，保存的就是不同label之间的边界(不同类型的边界形式不一样)，文中提供了三种： poles(其实该label本身就是直线文中构建地图也是拟合的)，road的边界以及skyline等；其实最后就是一些线段，计算error方式一样，也是projection到图像上，和图像的语义label的边界距离；
+>   在实际计算中，得到query图像的语义分割结果后，为每个label都构建了一个error map(出去动态物体，行人和车辆)，其实就是该位置距离最近的对应的label的距离(截断距离)，有了这些error map，3d点投影error就是对应label的error map投影位置上的值，3d curves进行积分，简单可以理解为sample一些点，也是取error，对于边界curve，error是对于的两个label的error map的和(这个是我的理解，文中没仔细讲，但是文中提到对于query image的操作只有建立error map)
+>
+> 试验结果：
+> 1. 同源数据下，效果和2d-3d还是有点差距；(contour这种约束没有2d-3d那边精确)
+> 2. 但在非同源数据下，也就是map和query数据是在不同条件下采集的，这样本文的效果还是不错的，没有像传统2d-3d退化的那么严重；(此时2d-3d可能很多情况下已经找不到正确的匹配关系了)
+> 
+> 该方法有三个问题：
+> 1. 该方法比较依赖分割的精度，不仅仅是IOU还有contour上的精度，适用于各种条件场景下的语义分割本身也是一个比较难解的问题（相对于pose还是好一些）；
+> 2. 该方法依赖不同语义间的contour进行精确定位，这个精度感觉有限，所以使用该方法的精度上限不高，但结合传统方法应该比较好；
+> 3. 适用于语义比较丰富的场景，如果场景中语义信息不是特别丰富，假设可能只有两三类，这种情况下不太适用，主要因为单张图像上可能只有一种语义；
 
 ------
 
@@ -91,10 +119,13 @@
 ##### SCoRe Forest
 [Scene coordinate regression forests for camera relocalization in rgb-d images](https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Shotton_Scene_Coordinate_Regression_2013_CVPR_paper.pdf)&nbsp;[2013 CVPR]
 
+##### Camera Pose Voting
+[Camera Pose Voting for Large-Scale Image-Based Localization](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zeisl_Camera_Pose_Voting_ICCV_2015_paper.pdf)&nbsp;[2015 ICCV]&nbsp;[[note](https://github.com/huayong/dl-vision-papers/tree/master/camera-loc/notes/local-feature-based/camera-pose-voting.md)]
+
 ##### Structure-less Resection
 [Structure from Motion Using Structure-less Resection](https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Zheng_Structure_From_Motion_ICCV_2015_paper.pdf)&nbsp;[2015 ICCV]
 
-> 利用2D-2D匹配关系增量式的构建SFM，和原来2D-3D不同的是该论文只利用了图像间的2D-2D的匹配关系来求解camera pose；
+> 问题：
 >
 > 1. 首先基于2D-3D方法的前提是map中的3D点在2D图上是可见的，这样才能获得匹配关系进一步求解camera pose，但有种情况是由于重建不完全或者其他原因导致map中的3D点在2D图像中并不可见，但2D图像和地图中的2D图像是有overlap的；
 >
@@ -104,7 +135,12 @@
 >
 >    基于上面的思想当然问题可能不仅仅是像上面的例子一样，3D本身构建过程中就会丢掉一部分信息，而且最全的信息还是来自原始图像，所以本文采用2D-2D的策略；
 >
-> 2. 而且这里构建的是多相机之间的2D-2D的匹配关系，
+> 思路：
+>
+> 利用2D-2D匹配关系增量式的构建SFM，和原来2D-3D不同的是该论文只利用了图像间的2D-2D的匹配关系来求解camera pose；
+>
+> 1. 而且这里构建的是多相机之间的2D-2D的匹配关系，目的是为了防止下面这张情况，比如query图像如map中的图像可以完全overlap，但是和每张图像都是部分overlap，可能map中5张（举例）可以覆盖住query图像，暴力方法就是和每一张图像都进行2D-2D的匹配，本文想简化这个过程。
+>
 
 ------
 
