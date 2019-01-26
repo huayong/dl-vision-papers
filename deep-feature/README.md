@@ -51,7 +51,7 @@
 | [MatchNet](#matchnet)             |        |      |      |        |
 
 ##### GeoDesc
-[GeoDesc: Learning Local Descriptors by Integrating Geometry Constraints](https://arxiv.org/abs/1807.06294)&nbsp;[2018 ECCV]&nbsp;[code: [tensorflow](https://github.com/lzx551402/geodesc)]
+[GeoDesc: Learning Local Descriptors by Integrating Geometry Constraints](https://arxiv.org/abs/1807.06294)&nbsp;[2018 ECCV]&nbsp;[code: [tensorflow](https://github.com/lzx551402/geodesc)]&nbsp;[[note](https://blog.csdn.net/honyniu/article/details/86617082)]
 
 ##### LF-NET
 [LF-Net: Learning Local Features from Images](https://arxiv.org/abs/1805.09662)&nbsp;[2018 NIPS]&nbsp;[code: [tensorflow](https://github.com/vcg-uvic/lf-net-release)]
@@ -115,8 +115,19 @@
 
 ##### *Evaluation* 
 
-[Comparative Evaluation of Hand-Crafted and Learned Local Features]()&nbsp;[2017 CVPR]
+###### ETH local features
 
-[HPatches: A Benchmark and Evaluation of Handcrafted and Learned Local Descriptors](https://arxiv.org/abs/1704.05939)&nbsp;[2017 CVPR]
+[Comparative Evaluation of Hand-Crafted and Learned Local Features](https://www.cvg.ethz.ch/research/local-feature-evaluation/schoenberger2017comparative.pdf)&nbsp;[2017 CVPR]&nbsp;[[code](https://github.com/ahojnnes/local-feature-evaluation)]&nbsp;[[project page](https://cvg.ethz.ch/research/local-feature-evaluation/)]
+
+###### HPatches
+[HPatches: A Benchmark and Evaluation of Handcrafted and Learned Local Descriptors](https://arxiv.org/abs/1704.05939)&nbsp;[2017 CVPR]&nbsp;[[project page](https://hpatches.github.io/)]
+
+###### Heinly
+[Comparative Evaluation of Binary Features](http://rogerioferis.com/VisualRecognitionAndSearch2013/material/Class2EfficientFeatureSurvey.pdf)&nbsp;[2012 ECCV]&nbsp;[[project page](http://cs.unc.edu/~jheinly/binary_descriptors.html)]
+
+###### Brown
+[Discriminative Learning of Local Image Descriptors](http://matthewalunbrown.com/papers/pami2010.pdf)&nbsp;[2010 PAMI]&nbsp;[[project page](http://matthewalunbrown.com/patchdata/patchdata.html)]
+
 
 [A performance evaluation of local descriptors](https://www.robots.ox.ac.uk/~vgg/research/affine/det_eval_files/mikolajczyk_pami2004.pdf)&nbsp;[2005 PAMI]
+

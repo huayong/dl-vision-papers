@@ -26,7 +26,11 @@
 ##### SfMLearner
 [Unsupervised Learning of Depth and Ego-Motion from Video](https://arxiv.org/abs/1704.07813)&nbsp;[2017 CVPR]&nbsp;[code: [tensorflow](https://github.com/tinghuiz/SfMLearner)]&nbsp;[[project page](https://people.eecs.berkeley.edu/~tinghuiz/projects/SfMLearner/)]
 
+> 输入一小段序列帧，估计当前帧的depth以及相对于相邻帧的relative pose，而且重点是不需要训练数据，非监督学习。
+> 
+
 ##### SfM-Net
+
 [SfM-Net: Learning of Structure and Motion from Video](https://arxiv.org/abs/1704.07804)&nbsp;[2017 arXiv]
 
 ##### DeMoN
@@ -75,6 +79,9 @@
 
 ##### DS-SLAM
 [DS-SLAM: A Semantic Visual SLAM towards Dynamic Environments](https://arxiv.org/abs/1809.08379)&nbsp;[2018 IROS]
+
+##### DynaSLAM
+[DynaSLAM: Tracking, Mapping and Inpainting in Dynamic Environments](https://arxiv.org/abs/1806.05620)&nbsp;[2018 RAL]&nbsp;[code: [tensorflow](https://github.com/BertaBescos/DynaSLAM)]
 
 ------
 

@@ -1,11 +1,35 @@
+#### 2D Vision
+
 [Base Architecture](https://github.com/huayong/dl-vision-papers/tree/master/base-archs)
 
-1. 基础的提取特征的模型框架，包括AlexNet、Googlenet、ResNet和DenseNet系列等；
+1. 基础的提取特征的分类框架，包括AlexNet、Googlenet、ResNet和DenseNet系列等；
+
+[Segmentation Architecture](https://github.com/huayong/dl-vision-papers/tree/master/seg-archs)
+
+1. 语义分割网络，包括Deeplab系列、PSPNet、SegNet和ENet等；
+2. 实例分割网络；
+3. 全景分割网络，融合了语义分割和实例分割；
+
+[Object Detection Architecture](https://github.com/huayong/dl-vision-papers/tree/master/det-archs)
+
+1. 检测网络，包括RCNN系列、YOLO系列、SSD系列等；
+
+[Human Keypoint Detection Architecture](https://github.com/huayong/dl-vision-papers/tree/master/kps-archs)
+
+1. 人体关节点检测网络，包括OpenPose、DensePose等；
+
+[Multi-task Architecture](https://github.com/huayong/dl-vision-papers/tree/master/multi-archs)
+
+1. 针对多个任务同时处理的网络架构；
 
 [Mobile Architecture](https://github.com/huayong/dl-vision-papers/tree/master/mobile-archs)
 
 1. 移动端模型框架，包括MobileNet和ShuffleNet系列等；
-2. 模型框架自动学习，包括NASNet系列等；
+
+[NAS](https://github.com/huayong/dl-vision-papers/tree/master/nas-archs)
+1. 模型框架自动学习，包括NASNet系列等；
+
+#### 3D Vision
 
 [3D Recon](https://github.com/huayong/dl-vision-papers/tree/master/3d-recon)
 
@@ -30,6 +54,10 @@
 1. 点云为输入的模型框架，包括PointNet系列等；
 2. Depth为输入的模型框架；
 3. RGBD为输入的模型框架；
+
+[6D Object Pose](https://github.com/huayong/dl-vision-papers/tree/master/6d-object-pose)
+
+1. 利用CNN网络估计单帧图像的
 
 [Camera Loc](https://github.com/huayong/dl-vision-papers/tree/master/camera-loc)
 

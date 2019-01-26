@@ -22,6 +22,18 @@
 
 #### Object Recon
 
+##### GenRe
+[Learning to Reconstruct Shapes from Unseen Classes](https://arxiv.org/abs/1812.11166)&nbsp;[2018 NIPS(oral)]&nbsp;[code: [pytorch](https://github.com/xiumingzhang/GenRe-ShapeHD)]&nbsp;[[project page](http://genre.csail.mit.edu/)]
+
+##### ShapeHD
+[Learning Shape Priors for Single-View 3D Completion and Reconstruction](https://arxiv.org/abs/1809.05068)&nbsp;[2018 ECCV]&nbsp;[code: [pytorch](https://github.com/xiumingzhang/GenRe-ShapeHD)]&nbsp;[[project page](http://shapehd.csail.mit.edu/)]
+
+##### MarrNet
+[MarrNet: 3D Shape Reconstruction via 2.5D Sketches](https://arxiv.org/abs/1711.03129)&nbsp;[2017 NIPS]&nbsp;[code: [torch7](https://github.com/jiajunwu/marrnet)&nbsp;[pytorch](https://github.com/xiumingzhang/GenRe-ShapeHD)]&nbsp;[[project page](http://marrnet.csail.mit.edu/)]
+
+##### 3D-GAN
+[Learning a Probabilistic Latent Space of Object Shapes via 3D Generative-Adversarial Modeling](https://arxiv.org/abs/1610.07584)&nbsp;[2016 NIPS]&nbsp;[code: [torch7](https://github.com/zck119/3dgan-release)]&nbsp;[[project page](http://3dgan.csail.mit.edu/)]
+
 ------
 
 #### Plane Recon

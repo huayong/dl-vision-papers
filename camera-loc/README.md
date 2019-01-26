@@ -116,7 +116,11 @@
 ##### Active Search
 [Efficient & effective prioritized matching for large-scale image-based localization](http://people.inf.ethz.ch/sattlert/publications/Sattler201XPAMI.pdf)&nbsp;[2017 TPAMI]
 
+##### CSL
+[City-Scale Localization for Cameras with Known Vertical Direction](http://120.52.51.15/www.maths.lth.se/vision/publdb/reports/pdf/svarm-enqvist-etal-pami-16.pdf)&nbsp;[2017 PAMI]
+
 ##### SCoRe Forest
+
 [Scene coordinate regression forests for camera relocalization in rgb-d images](https://www.cv-foundation.org/openaccess/content_cvpr_2013/papers/Shotton_Scene_Coordinate_Regression_2013_CVPR_paper.pdf)&nbsp;[2013 CVPR]
 
 ##### Camera Pose Voting
