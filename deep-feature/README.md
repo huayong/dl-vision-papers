@@ -1,8 +1,22 @@
 #### Contents  
+- [Appearance Transfer](#appearance transfer)
 - [Global Feature](#global-feature)  
 - [Local Feature](#local-feature) 
 
 ------
+
+------
+
+#### Appearance Transfer
+
+##### ToDayGAN
+[Night-to-Day Image Translation for Retrieval-based Localization](https://arxiv.org/abs/1809.09767)&nbsp;[2018 arXiv]&nbsp;[code: [pytorch](https://github.com/AAnoosheh/ToDayGAN)]
+
+##### ATAC
+[Adversarial Training for Adverse Conditions: Robust Metric Localisation using Appearance Transfer](https://arxiv.org/abs/1803.03341)&nbsp;[2018 CoRR]
+
+##### PRGAN
+[Addressing Challenging Place Recognition Tasks using Generative Adversarial Networks](https://arxiv.org/abs/1709.08810)&nbsp;[2018 ICRA]
 
 ------
 
