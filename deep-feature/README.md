@@ -1,5 +1,5 @@
 #### Contents  
-- [Appearance Transfer](#appearance transfer)
+- [Appearance Transfer](#appearance-transfer)
 - [Global Feature](#global-feature)  
 - [Local Feature](#local-feature) 
 
