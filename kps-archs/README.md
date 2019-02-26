@@ -4,8 +4,10 @@
 
 ------
 
-##### DensePose
+##### HRNet
+[Deep High-Resolution Representation Learning for Human Pose Estimation](https://arxiv.org/pdf/1902.09212.pdf)&nbsp;[2019 CVPR]&nbsp;[code: [pytorch](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch)]
 
+##### DensePose
 [DensePose: Dense Human Pose Estimation In The Wild](https://arxiv.org/abs/1802.00434)&nbsp;[2018 arXiv]&nbsp;[code: [caffe2](https://github.com/facebookresearch/DensePose/)]&nbsp;[[project page](http://densepose.org/)]
 
 

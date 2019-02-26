@@ -87,6 +87,9 @@
 
 #### VO
 
+##### DeepMatchVO
+[Beyond Photometric Loss for Self-Supervised Ego-Motion Estimation](https://arxiv.org/pdf/1902.09103.pdf)&nbsp;[2019 ICRA]&nbsp;[code: [coming soon](https://github.com/hlzz/DeepMatchVO)]
+
 ##### RegNet
 [RegNet: Learning the Optimization of Direct Image-to-Image Pose Registration](https://arxiv.org/abs/1812.10212)&nbsp;[2018 arXiv]
 
@@ -146,6 +149,9 @@
 ------
 
 #### Flow Estimation
+
+##### DDFlow
+[DDFlow: Learning Optical Flow with Unlabeled Data Distillation](https://arxiv.org/pdf/1902.09145.pdf)&nbsp;[2019 AAAI]
 
 ##### FlowNet2.0
 [FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks](https://arxiv.org/abs/1612.01925)&nbsp;[2017 CVPR]&nbsp;[code [caffe](https://github.com/lmb-freiburg/flownet2)]
