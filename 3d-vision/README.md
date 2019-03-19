@@ -87,6 +87,9 @@
 
 #### VO
 
+##### NeuralBundler
+[Pose Graph Optimization for Unsupervised Monocular Visual Odometry](https://128.84.21.199/abs/1903.06315)&nbsp;[2019 ICRA]
+
 ##### DeepMatchVO
 [Beyond Photometric Loss for Self-Supervised Ego-Motion Estimation](https://arxiv.org/pdf/1902.09103.pdf)&nbsp;[2019 ICRA]&nbsp;[code: [coming soon](https://github.com/hlzz/DeepMatchVO)]
 

@@ -150,6 +150,9 @@
 
 #### PoseNet Based
 
+##### Limitations
+[Understanding the Limitations of CNN-based Absolute Camera Pose Regression](https://128.84.21.199/abs/1903.07504)&nbsp;[2019 CVPR]
+
 ##### VLocNet++
 
 [VLocNet++: Deep Multitask Learning for Semantic Visual Localization and Odometry](https://arxiv.org/abs/1804.08366)&nbsp;[2018 RAL]&nbsp;[[project page](http://deeploc.cs.uni-freiburg.de/)]

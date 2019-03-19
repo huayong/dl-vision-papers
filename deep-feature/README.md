@@ -64,6 +64,9 @@
 | [TILDE](#tilde)                   |        |      |      |        |
 | [MatchNet](#matchnet)             |        |      |      |        |
 
+##### LiFF
+[LiFF: Light Field Features in Scale and Depth](https://arxiv.org/abs/1901.03916)&nbsp;[201 ECCV]&nbsp;[code: [matlab](https://github.com/doda42/LiFF)]&nbsp;[[project page](http://dgd.vision/Tools/LiFF/)]
+
 ##### GeoDesc
 [GeoDesc: Learning Local Descriptors by Integrating Geometry Constraints](https://arxiv.org/abs/1807.06294)&nbsp;[2018 ECCV]&nbsp;[code: [tensorflow](https://github.com/lzx551402/geodesc)]&nbsp;[[note](https://blog.csdn.net/honyniu/article/details/86617082)]
 
