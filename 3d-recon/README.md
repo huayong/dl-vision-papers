@@ -38,8 +38,17 @@
 
 #### Plane Recon
 
+##### PlanarReconstruction
+[Single-Image Piece-wise Planar 3D Reconstruction via Associative Embedding](https://arxiv.org/abs/1902.09777)&nbsp;[2019 CVPR]&nbsp;[code: [pytorch](https://github.com/svip-lab/PlanarReconstruction)]
+
+> 1. 针对室内家居场景，ScanNet数据集；
+> 2. 
+
 ##### PlaneRCNN
-[PlaneRCNN: 3D Plane Detection and Reconstruction from a Single Image](https://arxiv.org/abs/1812.04072)&nbsp;[2018 arXiv]
+[PlaneRCNN: 3D Plane Detection and Reconstruction from a Single Image](https://arxiv.org/abs/1812.04072)&nbsp;[2019 CVPR Oral]
+
+> 1. 室内室外双场景都适用；
+> 2. 
 
 ##### PlaneRecover
 [Recovering 3D Planes from a Single Image via Convolutional Neural Networks](https://arxiv.org/pdf/1812.04072)&nbsp;[2018 ECCV]&nbsp;[code: [tensorflow](https://github.com/fuy34/planerecover)]

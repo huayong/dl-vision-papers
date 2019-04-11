@@ -36,7 +36,7 @@
 > 3. 然后累加上相似图形的pose得到最终的pose；
 
 ##### CoarseToFine
-[From Coarse to Fine: Robust Hierarchical Localization at Large Scale](https://arxiv.org/abs/1812.03506)&nbsp;[2018 arXiv]
+[From Coarse to Fine: Robust Hierarchical Localization at Large Scale](https://arxiv.org/abs/1812.03506)&nbsp;[2019 CVPR]&nbsp;[code: [tensorflow](https://github.com/ethz-asl/hfnet)]
 
 > 1. 这篇工作是[HierarchicalLoc](#hierarchicalloc)的延续，基本思路一致，主要不同就是把2d-3d中的SIFT等传统描述符换成了现在比较火的deep feature，具体是[SuperPoint](#https://github.com/huayong/dl-vision-papers/tree/master/deep-feature#superpoint)；
 > 2. 当然SuperPoint也是训练了一个轻量级mobile版本的，只不过是把NetVLAD一起来train；
@@ -151,7 +151,7 @@
 #### PoseNet Based
 
 ##### Limitations
-[Understanding the Limitations of CNN-based Absolute Camera Pose Regression](https://128.84.21.199/abs/1903.07504)&nbsp;[2019 CVPR]
+[Understanding the Limitations of CNN-based Absolute Camera Pose Regression](https://128.84.21.199/abs/1903.07504)&nbsp;[2019 CVPR]&nbsp;[[dataset](https://github.com/tsattler/understanding_apr)]
 
 ##### VLocNet++
 

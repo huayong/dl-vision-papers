@@ -57,7 +57,10 @@
 
 [6D Object Pose](https://github.com/huayong/dl-vision-papers/tree/master/6d-object-pose)
 
-1. 利用CNN网络估计单帧图像的
+利用CNN网络估计单帧图像中物体 6-DoF 位姿。
+
+1. 室内场景物体；
+2. 室外场景物体，无人驾驶应用场景，大部分是车辆的位姿；
 
 [Camera Loc](https://github.com/huayong/dl-vision-papers/tree/master/camera-loc)
 

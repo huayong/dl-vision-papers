@@ -1,4 +1,4 @@
-#### Contents  
+#### 3D-Vision  
 - [SFM](#sfm)
 - [MVS](#mvs)
 - [SLAM](#slam)
@@ -91,7 +91,7 @@
 [Pose Graph Optimization for Unsupervised Monocular Visual Odometry](https://128.84.21.199/abs/1903.06315)&nbsp;[2019 ICRA]
 
 ##### DeepMatchVO
-[Beyond Photometric Loss for Self-Supervised Ego-Motion Estimation](https://arxiv.org/pdf/1902.09103.pdf)&nbsp;[2019 ICRA]&nbsp;[code: [coming soon](https://github.com/hlzz/DeepMatchVO)]
+[Beyond Photometric Loss for Self-Supervised Ego-Motion Estimation](https://arxiv.org/pdf/1902.09103.pdf)&nbsp;[2019 ICRA]&nbsp;[code: [tensorflow](https://github.com/hlzz/DeepMatchVO)]
 
 ##### RegNet
 [RegNet: Learning the Optimization of Direct Image-to-Image Pose Registration](https://arxiv.org/abs/1812.10212)&nbsp;[2018 arXiv]
@@ -137,11 +137,17 @@
 
 #### Depth Estimation
 
+##### Occlusion
+[Fast Depth Densification for Occlusion-aware Augmented Reality](https://homes.cs.washington.edu/~holynski/publications/occlusion_sa2018.pdf)&nbsp;[2018 SA]&nbsp;[code: [python+opencv](https://github.com/facebookresearch/AR-Depth)]&nbsp;[[project page](https://homes.cs.washington.edu/~holynski/publications/occlusion/index.html)]
+
 ##### Depth VO Feat
 [Unsupervised Learning of Monocular Depth Estimation and Visual Odometry with Deep Feature Reconstruction](https://arxiv.org/abs/1803.03893)&nbsp;[2018 CVPR]&nbsp;[code: [caffe](https://github.com/Huangying-Zhan/Depth-VO-Feat)]
 
 ##### Vid2Depth
 [Unsupervised Learning of Depth and Ego-Motion from Monocular Video Using 3D Geometric Constraints](https://arxiv.org/abs/1802.05522)&nbsp;[2018 CVPR]&nbsp;[code: [tensorflow](https://github.com/tensorflow/models/tree/master/research/vid2depth)]&nbsp;[[project page](https://sites.google.com/view/vid2depth)]
+
+##### Sparse-to-Dense
+[Sparse-to-Dense: Depth Prediction from Sparse Depth Samples and a Single Image](https://arxiv.org/abs/1709.07492)&nbsp;[2018 ICRA]&nbsp;[code: [pytorch](https://github.com/fangchangma/sparse-to-dense.pytorch)&nbsp;[torch](https://github.com/fangchangma/sparse-to-dense)]
 
 ##### monoDepth
 [Unsupervised Monocular Depth Estimation with Left-Right Consistency](https://arxiv.org/abs/1609.03677)&nbsp;[2017 CVPR]&nbsp;[code: [tensorflow](https://github.com/mrharicot/monodepth)]&nbsp;[[project page](http://visual.cs.ucl.ac.uk/pubs/monoDepth/)]
@@ -153,8 +159,23 @@
 
 #### Flow Estimation
 
+##### IRR
+[Iterative Residual Refinement for Joint Optical Flow and Occlusion Estimation](https://arxiv.org/abs/1904.05290)&nbsp;[2019 CVPR]
+
 ##### DDFlow
 [DDFlow: Learning Optical Flow with Unlabeled Data Distillation](https://arxiv.org/pdf/1902.09145.pdf)&nbsp;[2019 AAAI]
+
+##### LiteFlowNet
+[LiteFlowNet: A Lightweight Convolutional Neural Network for Optical Flow Estimation](https://arxiv.org/abs/1805.07036)&nbsp;[2018 CVPR]&nbsp;[code [caffe](https://github.com/twhui/LiteFlowNet)&nbsp;[pytorch](https://github.com/sniklaus/pytorch-liteflownet)]
+
+##### PWC-Net+
+[Models Matter, So Does Training: An Empirical Study of CNNs for Optical Flow Estimation](https://arxiv.org/abs/1809.05571)&nbsp;[2018 TPAMI]&nbsp;[code [pytorch & caffe](https://github.com/NVlabs/PWC-Net)]
+
+##### PWC-Net
+[PWC-Net: CNNs for Optical Flow Using Pyramid, Warping, and Cost Volume](https://arxiv.org/abs/1709.02371)&nbsp;[2018 CVPR]&nbsp;[code [pytorch & caffe](https://github.com/NVlabs/PWC-Net)]
+
+##### MirrorFlow
+[MirrorFlow: Exploiting Symmetries in Joint Optical Flow and Occlusion Estimation](https://arxiv.org/abs/1708.05355)&nbsp;[2017 ICCV]
 
 ##### FlowNet2.0
 [FlowNet 2.0: Evolution of Optical Flow Estimation with Deep Networks](https://arxiv.org/abs/1612.01925)&nbsp;[2017 CVPR]&nbsp;[code [caffe](https://github.com/lmb-freiburg/flownet2)]
