@@ -137,6 +137,45 @@
 
 #### Depth Estimation
 
+##### Depth from Videos in the Wild
+[Depth from Videos in the Wild:Unsupervised Monocular Depth Learning from Unknown Cameras](https://arxiv.org/abs/1904.04998)&nbsp;[2019 arXiv]
+
+##### Sparse2Dense
+[Sparse2Dense: From direct sparse odometry to dense 3D reconstruction](https://arxiv.org/abs/1903.09199)&nbsp;[2019 ICRA]
+
+##### DC
+[Depth Coefficients for Depth Completion](https://arxiv.org/abs/1903.05421)&nbsp;[2019 CVPR]
+
+##### FastDepth
+[FastDepth: Fast Monocular Depth Estimation on Embedded Systems](https://arxiv.org/abs/1903.03273)&nbsp;[2019 AAAI]&nbsp;[code: [pytorch](https://github.com/dwofk/fast-depth)]
+
+##### Struct2Depth
+[Depth Prediction Without the Sensors: Leveraging Structure for Unsupervised Learning from Monocular Videos](https://arxiv.org/abs/1811.06152)&nbsp;[2019 AAAI]&nbsp;[code: [tensorflow](https://github.com/tensorflow/models/tree/master/research/struct2depth)]&nbsp;[[project page](https://sites.google.com/view/struct2depth)]
+
+##### EPC++
+[Every Pixel Counts ++: Joint Learning of Geometry and Motion with 3D Holistic Understanding](https://arxiv.org/abs/1810.06125)&nbsp;[2018 arXiv]
+
+##### DF-Net
+[DF-Net: Unsupervised Joint Learning of Depth and Flow using Cross-Task Consistency](https://arxiv.org/abs/1809.01649)&nbsp;[2018 ECCV]&nbsp;[code: [tensorflow](https://github.com/vt-vl-lab/DF-Net)]&nbsp;[[project page](http://yuliang.vision/DF-Net/)]
+
+##### 3Net
+[Learning monocular depth estimation with unsupervised trinocular assumptions](https://arxiv.org/abs/1808.01606)&nbsp;[2018 3DV]&nbsp;[code: [tensorflow](https://github.com/mattpoggi/3net)]
+
+##### StereoNet
+[StereoNet: Guided Hierarchical Refinement for Real-Time Edge-Aware Depth Prediction](https://arxiv.org/abs/1807.08865)&nbsp;[2018 ECCV]&nbsp;[code: [pytorch](https://github.com/meteorshowers/StereoNet)]
+
+##### Self-Supervised Sparse-to-Dense
+[Self-Supervised Sparse-to-Dense: Self-Supervised Depth Completion from LiDAR and Monocular Camera](https://arxiv.org/abs/1807.00275)&nbsp;[2019 ICRA]&nbsp;[code: [pytorch](https://github.com/fangchangma/self-supervised-depth-completion)]
+
+##### EPC
+[Every Pixel Counts: Unsupervised Geometry Learning with Holistic 3D Motion Understanding](https://arxiv.org/abs/1806.10556)&nbsp;[2018 ECCVW]
+
+##### monoDepth2
+[Digging Into Self-Supervised Monocular Depth Estimation](https://arxiv.org/abs/1806.01260)&nbsp;[2018 arXiv]&nbsp;[code: [pytorch](https://github.com/nianticlabs/monodepth2)]
+
+##### LEGO
+[LEGO: Learning Edge with Geometry all at Once by Watching Videos](https://arxiv.org/abs/1803.05648)&nbsp;[2018 CVPR]&nbsp;[code: [tensorflow](https://github.com/zhenheny/LEGO)]
+
 ##### Occlusion
 [Fast Depth Densification for Occlusion-aware Augmented Reality](https://homes.cs.washington.edu/~holynski/publications/occlusion_sa2018.pdf)&nbsp;[2018 SA]&nbsp;[code: [python+opencv](https://github.com/facebookresearch/AR-Depth)]&nbsp;[[project page](https://homes.cs.washington.edu/~holynski/publications/occlusion/index.html)]
 
@@ -145,6 +184,9 @@
 
 ##### Vid2Depth
 [Unsupervised Learning of Depth and Ego-Motion from Monocular Video Using 3D Geometric Constraints](https://arxiv.org/abs/1802.05522)&nbsp;[2018 CVPR]&nbsp;[code: [tensorflow](https://github.com/tensorflow/models/tree/master/research/vid2depth)]&nbsp;[[project page](https://sites.google.com/view/vid2depth)]
+
+##### Edge-aware Depth-Normal Consistency
+[Unsupervised Learning of Geometry from Videos with Edge-aware Depth-Normal Consistency](https://arxiv.org/abs/1711.03665)&nbsp;[2018 AAAI]
 
 ##### Sparse-to-Dense
 [Sparse-to-Dense: Depth Prediction from Sparse Depth Samples and a Single Image](https://arxiv.org/abs/1709.07492)&nbsp;[2018 ICRA]&nbsp;[code: [pytorch](https://github.com/fangchangma/sparse-to-dense.pytorch)&nbsp;[torch](https://github.com/fangchangma/sparse-to-dense)]
