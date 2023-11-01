@@ -1,3 +1,20 @@
+### New Update
+
+[Image Feature](https://github.com/huayong/dl-vision-papers/tree/master/image-feature)
+
+1. 图像全局描述符，一般用于图像检索(Image Retrieval)、地点识别(Place Recognition)等；
+2. 图像局部描述符，包括特征点提取，描述符计算，匹配度量算法学习等；
+2. 图像局部描述符求匹配关系
+
+[Point Cloud Registration](https://github.com/huayong/dl-vision-papers/tree/master/point-cloud-registration)
+
+1. 点云全局描述符，一般用于点云检索(Point Cloud Retrieval)、地点识别(Place Recognition)等；
+1. 点云配准
+2. 点云匹配质量校验
+
+
+### before 2019.4
+
 #### 2D Vision
 
 [Base Architecture](https://github.com/huayong/dl-vision-papers/tree/master/base-archs)
@@ -71,7 +88,6 @@
 
 [Deep Feature](https://github.com/huayong/dl-vision-papers/tree/master/deep-feature)
 
-1. 图像全局描述符，一般用于图像检索（Image Retrieval）、地点识别( Place Recognition）等；
+1. 图像全局描述符，一般用于图像检索(Image Retrieval)、地点识别(Place Recognition)等；
 2. 图像局部描述符，包括特征点提取，描述符计算，匹配度量算法学习等；
 3. 图像 appearance transfer，利用 gan 把特殊情况下（晚上，下雪）的图像转成一般情况处理，主要解决特殊情况下的图像匹配问题；
-
